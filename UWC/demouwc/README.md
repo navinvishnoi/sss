@@ -1,25 +1,3 @@
-[![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=almasaeed2010&url=http://almsaeedstudio.com&title=AdminLTE&language=&tags=github&category=software) [![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif "AdminLTE Presentation")](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=629XCUSXBHCBC "Donate")
-------------------------
-
-**AdminLTE** -- is a fully responsive admin template. Based on **Bootstrap 3** framework. Highly customizable and easy to use. Fits many screen resolutions from small mobile devices to large desktops. Check out the live preview now and see for yourself. 
-
-**Live Preview: http://almsaeedstudio.com/preview/**
-
-Note: If the javascript in the preview does not work properly (specially IE users), please visit http://almsaeedstudio.com/AdminLTE (this could be because of the use of an iframe!)
-
-Want More?
------------
-**Almsaeed studio just opened a new premium templates page. Hand picked to insure the best quality and the most affordable prices. Visit http://almsaeedstudio.com/premium for more information.**
-
-
-!["AdminLTE Presentation"](http://almsaeedstudio.com/adminlte2.png "AdminLTE Presentation")
-
-**AdminLTE** has been carefully coded with clear comments in all of its JS, LESS and HTML files. LESS has been used to increase code customizability.
-
-Announcements:
---------------
-- Check out the new updated dashboard!
-- Thanks to **[@hason](https://github.com/hason)** for the great contribution, we now have a bower branch that supports Bower.js
 
 Special Features:
 -----------------
@@ -92,12 +70,4 @@ To Do List:
 - More skins
 - Documentation
 
-Image Credits:
---------------
-[pixeden](http://www.pixeden.com/psd-web-elements/flat-responsive-showcase-psd "")
 
-[graphicsfuel](http://www.graphicsfuel.com/2013/02/13-high-resolution-blur-backgrounds/ "")
-
-[ajaxload](http://www.ajaxload.info/ "")
-
-[pickaface](http://pickaface.net/ "")
