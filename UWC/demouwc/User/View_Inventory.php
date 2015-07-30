@@ -32,8 +32,9 @@
                             <li class=""><a href="#tab3success" data-toggle="tab" class="text-center">Property</a></li>
                             <li class=""><a href="#tab4success" data-toggle="tab" class="text-center">Hardware</a></li>
                             <li class=""><a href="#tab5success" data-toggle="tab" class="text-center">Material</a></li>
-                            <li class=""><a href="#tab6success" data-toggle="tab" class="text-center">Pricing</a></li>
-                            <li class=""><a href="#tab7success" data-toggle="tab" class="text-center">Stock</a></li>
+                            <li class=""><a href="#tab6success" data-toggle="tab" class="text-center">Material History</a></li>
+                            <li class=""><a href="#tab7success" data-toggle="tab" class="text-center">Pricing</a></li>
+                            <li class=""><a href="#tab8success" data-toggle="tab" class="text-center">Stock</a></li>
                         </ul>
                 </div>
                 <div class="panel-body">
@@ -219,6 +220,24 @@
                                             100 cm
                                         </div><!-- /.input group -->
                                         </div>
+                                        <div class="col-xs-6">
+                                        <div class="form-group">
+                                            <label class="col-xs-4">Warranty</label>
+                                            10 Month
+                                        </div><!-- /.input group -->
+                                        </div>
+                                        <div class="col-xs-6">
+                                        <div class="form-group">
+                                            <label class="col-xs-4">Reorder Point</label>
+                                            ABCD
+                                        </div><!-- /.input group -->
+                                        </div>
+                                        <div class="col-xs-6">
+                                        <div class="form-group">
+                                            <label class="col-xs-4">Minimum Point</label>
+                                            ABCD
+                                        </div><!-- /.input group -->
+                                        </div>
                                     </div>
                                 </div><!-- /.box-body -->
                                         </div></div>
@@ -332,6 +351,60 @@
                                         </div></div></div></div>
                                         
                                         <div class="tab-pane fade" id="tab6success">
+                        <div class="box box-success">
+                                <div class="box-body">
+                                    <div class="row">
+                                        <!--<div class="col-lg-12">
+                                       <div class="pull-right">
+                                       <button type="button" class="btn btn-success" data-toggle="tooltip" title="Print"><i class="fa fa-print"></i>&nbsp;Print</button>
+                         </div><br>
+                                          <div class=" table-responsive">
+                                       <br><table class="table table-bordered table-striped ">
+                                        <thead>
+                                          <tr>
+                                            <th>Item Name</th>
+                                            <th>Size</th>
+                                            <th>color code</th>
+                                            <th>Materail</th>
+                                            <th>Unit</th>
+                                            <th>Qty.</th>
+                                            <th>Rate</th>
+                                            
+                                          </tr>
+                                          </thead>
+                                          <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                          </tr>
+                                          <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                          </tr>
+                                          <tr>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                          </tr>
+                                        </table>
+                                        </div>
+                                        </div>-->
+                                        </div></div></div></div>
+                                        
+                                        <div class="tab-pane fade" id="tab7success">
                         
                                         <div class="box box-success">
                                 <div class="box-body">
@@ -366,13 +439,31 @@
                                             1700
                                         </div><!-- /.input group -->
                                         </div>
+                                        <div class="col-xs-6">
+                                        <div class="form-group">
+                                            <label class="col-xs-4">Currency</label>
+                                            Currency 1
+                                        </div><!-- /.input group -->
+                                        </div>
+                                        <div class="col-xs-6">
+                                        <div class="form-group">
+                                            <label class="col-xs-4">Exchange Rate</label>
+                                            Exchange Rate 1
+                                        </div><!-- /.input group -->
+                                        </div>
+                                        <div class="col-xs-6">
+                                        <div class="form-group">
+                                            <label class="col-xs-4">Final Amount</label>
+                                            5000
+                                        </div><!-- /.input group -->
+                                        </div>
                                     </div>
                                 </div>
                                 </div>
                                         
                                         </div>
                                         
-                                        <div class="tab-pane fade" id="tab7success">
+                                        <div class="tab-pane fade" id="tab8success">
                         <div class="box box-success">
                                 <div class="box-body">
                                     <div class="row">

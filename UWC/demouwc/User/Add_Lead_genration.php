@@ -17,6 +17,7 @@
 	$leadtype = "Cold_Call";
 	$Landline_Number = "0111 1111111";
 	$contactperson = "Navin Vishnoi";
+	$Degingnation = "ABCDEFGHIJKLMNOP";
 	$contactno = "9826404529";
 	$address = "ABCDEFGHIJKLMNOPQRSTU";
 	$City = "Khategaon";
@@ -32,6 +33,7 @@
 	$Follow_up_Date = "23/12/2014";
 	$Lead_Status = "Open";
 	$Lead_Class = "School";
+	$Area_Manager = "Area_Manager_1";
 	$Call_By = "Rahul";
 	$Call_Date = "15/11/2012";
 	$Reference_Name = "Ankit Jain";
@@ -45,6 +47,7 @@
 	$lead_id = '';
 	$leadtype = '';
 	$contactperson = '';
+	$Degingnation ='';
 	$Landline_Number = '';
 	$contactno = '';
 	$address = '';
@@ -61,6 +64,7 @@
 	$Follow_up_Date = '';
 	$Lead_Status = '';
 	$Lead_Class = '';
+	$Area_Manager = '';
 	$Call_By = '';
 	$Call_Date = '';
 	$Reference_Name = '';
@@ -411,6 +415,12 @@
                                         </div>
                                         <div class="col-xs-6">
                                         <div class="form-group">
+                                            <label>Degingnation</label>
+                                            <textarea class="form-control" rows="1" placeholder="Enter Degingnation..."><?php echo $Degingnation; ?></textarea>
+                                        </div><!-- /.input group -->
+                                        </div>
+                                        <div class="col-xs-6">
+                                        <div class="form-group">
                                             <label>Contact Number</label>
                                             <input type="text" class="form-control" placeholder="Enter Number..." value="<?php echo $contactno; ?>"/>
                                         </div><!-- /.input group -->
@@ -508,6 +518,18 @@
                                             <option value="Collage" <?php if($Lead_Class=='Collage') echo "selected"; ?>>Collage</option>
                                             <option value="Company" <?php if($Lead_Class=='Company') echo "selected"; ?>>Company</option>
                                             <option value="Restaurants" <?php if($Lead_Class=='Restaurants') echo "selected"; ?>>Restaurants</option>
+                                            </select>
+                                        </div><!-- /.input group -->
+                                        </div>
+                                        <div class="col-xs-6">
+                                        <div class="form-group">
+                                            <label>Area Manager</label>
+                                            <select class="form-control">
+                                            <option value="">Choose Area Manager</option>
+                                            <option value="Area_Manager_1" <?php if($Area_Manager=='Area_Manager_1') echo "selected"; ?>>Area Manager 1</option>
+                                            <option value="Area_Manager_2" <?php if($Area_Manager=='Area_Manager_2') echo "selected"; ?>>Area Manager 2</option>
+                                            <option value="Area_Manager_3" <?php if($Area_Manager=='Area_Manager_3') echo "selected"; ?>>Area Manager 3</option>
+                                            <option value="Area_Manager_4" <?php if($Area_Manager=='Area_Manager_4') echo "selected"; ?>>Area Manager 4</option>
                                             </select>
                                         </div><!-- /.input group -->
                                         </div>

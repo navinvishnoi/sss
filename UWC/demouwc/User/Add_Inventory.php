@@ -36,6 +36,12 @@
 	$Weight = "2 KG";
 	$Cost = "1700";
 	$Edit = "<i class='fa fa-edit'></i>&nbsp;Edit";
+	$Final_Amount= "5000";
+	$Currency= "Currency_1";
+	$Exchange_Rate= "Exchange_Rate_1";
+	$Warranty = "10 Month";
+	$Reorder_Point = "ABCD";
+	$Minimum_Point = "ABCD";
 	}else
 	{
 	$Edit = "<i class='fa fa-plus'></i>&nbsp;New";
@@ -63,6 +69,12 @@
 	$Lenght = '';
 	$Weight = '';
 	$Cost = '';
+	$Final_Amount= '';
+	$Currency= '';
+	$Exchange_Rate= '';
+	$Warranty = '';
+	$Reorder_Point = '';
+	$Minimum_Point = '';
 	}
 	 ?>
             <!-- Right side column. Contains the navbar and content of the page -->
@@ -87,8 +99,9 @@
                             <li class=""><a href="#tab3success" data-toggle="tab" class="text-center">Property</a></li>
                             <li class=""><a href="#tab4success" data-toggle="tab" class="text-center">Hardware</a></li>
                             <li class=""><a href="#tab5success" data-toggle="tab" class="text-center">Material</a></li>
-                            <li class=""><a href="#tab6success" data-toggle="tab" class="text-center">Pricing</a></li>
-                            <li class=""><a href="#tab7success" data-toggle="tab" class="text-center">Stock</a></li>
+                            <li class=""><a href="#tab6success" data-toggle="tab" class="text-center">Material History</a></li>
+                            <li class=""><a href="#tab7success" data-toggle="tab" class="text-center">Pricing</a></li>
+                            <li class=""><a href="#tab8success" data-toggle="tab" class="text-center">Stock</a></li>
                         </ul>
                 </div>
                 <div class="panel-body">
@@ -309,6 +322,24 @@
                                             <input type="text" class="form-control"  value="<?php echo $Unit; ?>" placeholder="Enter Unit..." />
                                         </div><!-- /.input group -->
                                         </div>
+                                        <div class="col-xs-6">
+                                        <div class="form-group">
+                                            <label>Warranty</label>
+                                            <input type="text" class="form-control"  value="<?php echo $Warranty; ?>" placeholder="Enter Warranty..." />
+                                        </div><!-- /.input group -->
+                                        </div>
+                                        <div class="col-xs-6">
+                                        <div class="form-group">
+                                            <label>Reorder Point</label>
+                                            <input type="text" class="form-control"  value="<?php echo $Reorder_Point; ?>" placeholder="Enter Reorder Point..." />
+                                        </div><!-- /.input group -->
+                                        </div>
+                                        <div class="col-xs-6">
+                                        <div class="form-group">
+                                            <label>Minimum Point</label>
+                                            <input type="text" class="form-control"  value="<?php echo $Minimum_Point; ?>" placeholder="Enter Minimum Point..." />
+                                        </div><!-- /.input group -->
+                                        </div>
                                     </div>
                                 </div><!-- /.box-body -->
                                         </div></div>
@@ -402,6 +433,50 @@
                                         </div></div></div></div>
                                         
                                         <div class="tab-pane fade" id="tab6success">
+                        <div class="box box-success">
+                                <div class="box-body">
+                                    <div class="row">
+                                        <!--<div class="col-lg-12">
+                                       <div class="pull-right">
+                                       <button type="button" class="btn btn-success" data-toggle="tooltip" title="Print"><i class="fa fa-print"></i>&nbsp;Print</button>
+                                       <button type="button" onclick="myFunction3()" class="btn btn-success" data-toggle="tooltip" title="Add More"><i class="fa fa-plus"></i>&nbsp;Add More</button></div><br>
+                                          <div class=" table-responsive">
+                                      <br><table id="myTable3" class="table table-bordered table-striped ">
+                                        <thead>
+                                          <tr>
+                                            <th>Item Name</th>
+                                            <th>Size</th>
+                                            <th>color code</th>
+                                            <th>Materail</th>
+                                            <th>Unit</th>
+                                            <th>Qty.</th>
+                                            <th>Rate</th>
+                                            <th>Action</th>
+                                            
+                                          </tr>
+                                          </thead>
+                                          <tr>
+                                            <td><select class="form-control">
+                                            <option value="">Select Item Name</option>
+                                            <option value="Item_Code_1">Item Name 1</option>
+                                            <option value="Item_Code_2">Item Name 2</option>
+                                            <option value="Item_Code_3">Item Name 3</option>
+                                            <option value="Item_Code_4">Item Name 4</option>
+                                            </select></td>
+                                            <td><input type="text" class="form-control" placeholder="Enter Size..."></td>
+                                            <td><input type="text" class="form-control" placeholder="Enter color code..."></td>
+                                            <td><input type="text" class="form-control" placeholder="Enter Materail..."></td>
+                                            <td><input type="text" class="form-control" placeholder="Enter Unit..."></td>
+                                            <td><input type="text" class="form-control" placeholder="Enter Qty...."></td>
+                                            <td><input type="text" class="form-control" placeholder="Enter Rate..."></td>
+                                           <td><button type="button" class="btn btn-danger" onclick="deleteRow3(this)" data-toggle="tooltip" title="Delete"><i class="fa  fa-times"></i></button></td>
+                                          </tr>
+                                        </table>
+                                        </div>
+                                        </div>-->
+                                        </div></div></div></div>
+                                        
+                                        <div class="tab-pane fade" id="tab7success">
                         
                                         <div class="box box-success">
                                 <div class="box-body">
@@ -437,13 +512,43 @@
                                             <input type="text" class="form-control"  value="<?php echo $Cost; ?>" placeholder="Enter Cost..." />
                                         </div><!-- /.input group -->
                                         </div>
+                                        <div class="col-xs-6">
+                                        <div class="form-group">
+                                            <label>Currency</label>
+                                            <select class="form-control">
+                                            <option value="">Select Currency</option>
+                                            <option value="Currency_1" <?php if($Currency=='Currency_1') echo "selected"; ?>>Currency 1</option>
+                                            <option value="Currency_2" <?php if($Currency=='Currency_2') echo "selected"; ?>>Currency 2</option>
+                                            <option value="Currency_3" <?php if($Currency=='Currency_3') echo "selected"; ?>>Currency 3</option>
+                                            <option value="Currency_4" <?php if($Currency=='Currency_4') echo "selected"; ?>>Currency 4</option>
+                                            </select>
+                                        </div><!-- /.input group -->
+                                        </div>
+                                        <div class="col-xs-6">
+                                        <div class="form-group">
+                                            <label>Exchange Rate</label>
+                                            <select class="form-control">
+                                            <option value="">Select Exchange Rate</option>
+                                            <option value="Exchange_Rate_1" <?php if($Exchange_Rate=='Exchange_Rate_1') echo "selected"; ?>>Exchange Rate 1</option>
+                                            <option value="Exchange_Rate_2" <?php if($Exchange_Rate=='Exchange_Rate_3') echo "selected"; ?>>Exchange Rate 2</option>
+                                            <option value="Exchange_Rate_3" <?php if($Exchange_Rate=='Exchange_Rate_3') echo "selected"; ?>>Exchange Rate 3</option>
+                                            <option value="Exchange_Rate_4" <?php if($Exchange_Rate=='Exchange_Rate_4') echo "selected"; ?>>Exchange Rate 4</option>
+                                            </select>
+                                        </div><!-- /.input group -->
+                                        </div>
+                                        <div class="col-xs-6">
+                                        <div class="form-group">
+                                            <label>Final Amount</label>
+                                            <input type="text" class="form-control"  value="<?php echo $Final_Amount; ?>" placeholder="Enter Final Amount..." />
+                                        </div><!-- /.input group -->
+                                        </div>
                                     </div>
                                 </div>
                                 </div>
                                         
                                         </div>
                                         
-                                        <div class="tab-pane fade" id="tab7success">
+                                        <div class="tab-pane fade" id="tab8success">
                         <div class="box box-success">
                                 <div class="box-body">
                                     <div class="row">

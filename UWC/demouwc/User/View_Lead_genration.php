@@ -102,6 +102,12 @@
                                         </div>
                                         <div class="col-xs-6">
                                         <div class="form-group">
+                                            <label class="col-xs-6">Degingnation</label>
+                                            ABCDEFGHIJKLMNOP
+                                        </div><!-- /.input group -->
+                                        </div>
+                                        <div class="col-xs-6">
+                                        <div class="form-group">
                                             <label class="col-xs-6">Contact Number</label>
                                             9826404529
                                         </div><!-- /.input group -->
@@ -181,6 +187,12 @@
                                         <div class="form-group">
                                             <label class="col-xs-6">Lead Class</label>
                                             School
+                                        </div>
+                                        </div>
+                                        <div class="col-xs-6">
+                                        <div class="form-group">
+                                            <label class="col-xs-6">Area Manager</label>
+                                            Area Manager 1
                                         </div>
                                         </div>
                                         <div class="col-xs-6">
