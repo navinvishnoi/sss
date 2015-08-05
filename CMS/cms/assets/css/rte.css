@@ -1,0 +1,220 @@
+/* CSS Document */
+
+.htmlarea-content-body {
+  font-family: Trebuchet MS, Verdana, Arial;
+  font-size: 12px;
+  line-height:20px;
+  color: #2F2E2E;
+}
+
+
+.vereinssuche h1{
+  text-align:left;
+  height: 30px;
+  padding: 0px 0px 0px 25px;
+  background-image:url(../lay/Vereinssuche.jpg);
+  background-repeat:no-repeat;
+  background-position:left top;
+  margin: 2px 0px 16px 0px;
+}
+
+
+
+h1{
+  font-family: Trebuchet MS, Arial, Verdana, sans-serif;
+  color: #084194;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 2px 0px 20px 0px;
+}
+
+h2{
+  font-family: Trebuchet MS, Arial, Verdana, sans-serif;
+  color: #084194;
+  font-size: 14px;
+  font-weight: bold;
+  line-height:10px;
+  margin: 10px 0px 0px 0px;
+  padding: 0px;
+}
+
+h3{
+  font-family: Trebuchet MS, Arial, Verdana, sans-serif;
+  color: #5c5c5c;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 0px 0px 0px 0px;
+  margin-top: 0px;
+  padding: 0px;
+}
+
+h4{
+  font-family: Trebuchet MS, Arial, Verdana, sans-serif;
+  color: #084194;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0px 0px 0px 0px;
+}
+
+
+
+#lsvs h1{
+  font-family: Trebuchet MS, Arial, Verdana, sans-serif;
+  color: #00aeef;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 10px 0px 10px 0px;
+}
+
+#aktionen h1{
+  font-family: Trebuchet MS, Arial, Verdana, sans-serif;
+  color: #d8242e;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 10px 0px 10px 0px;
+}
+
+#leistungssport h1{
+  font-family: Trebuchet MS, Arial, Verdana, sans-serif;
+  color: #e8c602;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 10px 0px 10px 0px;
+}
+
+#breitensport h1{
+  font-family: Trebuchet MS, Arial, Verdana, sans-serif;
+  color: #5fab03;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 10px 0px 10px 0px;
+}
+
+#sportschule h1{
+  font-family: Trebuchet MS, Arial, Verdana, sans-serif;
+  color: #348bcc;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 10px 0px 10px 0px;
+}
+
+#service h1{
+  font-family: Trebuchet MS, Arial, Verdana, sans-serif;
+  color: #fa9901;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 10px 0px 10px 0px;
+}
+
+
+#Content ul, .htmlarea-content-body ul, #Content ol, .htmlarea-content-body ol{
+  margin: 0px 0px 10px 20px;
+}
+
+a{
+font-family: Trebuchet MS, Arial, Verdana, sans-serif;
+  color: #084194;
+  font-size:12px;
+  text-decoration:none;
+}
+
+a:hover{
+  text-decoration:underline;
+}
+
+
+a.internal-link:link, a.internal-link:active, a.internal-link:visited{
+  font-family: Trebuchet MS, Arial, Verdana, sans-serif;
+  color: #084194;
+  font-size:12px;
+  text-decoration:none;
+  background-image:url(../lay/InternaLink.gif);
+  background-repeat:no-repeat;
+  background-position:center left;
+  padding: 0px 0px 0px 12px;
+}
+
+a.external-link:link, a.external-link:visited, a.external-link:active{
+  font-family: Trebuchet MS, Arial, Verdana, sans-serif;
+  color: #084194;
+  font-size:12px;
+  text-decoration:none;
+  background-image:url(../lay/ExternaLink.gif);
+  background-repeat:no-repeat;
+  background-position:center left;
+  padding: 0px 0px 0px 12px;
+}
+
+a.mail:link, a.mail:link, a.mail:visited{
+  font-family: Trebuchet MS, Arial, Verdana, sans-serif;
+  color: #084194;
+  font-size:12px;
+  text-decoration:none;
+  background-image:url(../lay/mail.gif);
+  background-repeat:no-repeat;
+  background-position:center left;
+  padding: 0px 0px 0px 20px;
+}
+
+a.mail:hover, a.download:hover, a.internal-link:hover, a.external-link:hover{
+  text-decoration:underline;
+}
+
+.contenttable td,
+.contenttable th {
+  padding: 5px;
+  margin: 0px;
+}
+
+TABLE.contenttable{
+  margin: 0px;
+  padding: 0px;
+  font-family: Trebuchet MS, Arial, Verdana, sans-serif;
+  width: 99%;
+  vertical-align: text-top;
+  font-size: 12px;
+}
+
+.TabelleHell {
+  background-color: #F6F6F6;
+}
+
+.TabelleMittel{
+  background-color: #E2E2E2;
+}
+
+.TabelleDunkel {
+  background-color: #CACACA;
+  font-weight: bold;
+  padding: 5px;
+  margin: 0px;
+}
+
+TD P,TD,th p{
+  font-size: 12px;
+  padding: 0px;
+  margin: 0px;
+}
+
+div.csc-textpic-intext-left div.csc-textpic-imagewrap {
+  float:left;
+  padding: 0px;
+  margin: 0px;
+}
+
+div.csc-textpic-intext-left div.csc-textpic-imagewrap, div.csc-textpic-intext-left-nowrap div.csc-textpic-imagewrap {
+  margin-right:10px !important;
+  padding-top: 5px;
+}
+
+div.csc-textpic-imagewrap {
+  padding: 0px;
+  margin: 0px;
+}
+
+.align-center{
+text-align:center;
+}
+
+
+

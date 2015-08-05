@@ -1,0 +1,1858 @@
+/*CSS*/
+@import url(abook.css);
+@import url(partner-footer.css);
+
+body {
+	font-family: Trebuchet MS, Arial, Verdana, sans-serif;
+	font-size: 12px;
+  	color: #575757;
+  	background-color:#fff;
+	text-align:center;
+	margin: 0 auto;
+	padding: 0px;
+}
+
+#Rahmen{
+	margin:auto;
+	text-align:left;
+	width:987px;
+}
+
+#Content a{
+	color:#084194;
+	text-decoration:none;
+	font-size: 12px;
+}
+
+#Content a:hover{
+	color:#084194;
+	text-decoration:underline;
+}
+
+#c3431 dl dt{
+	margin-bottom: 10px;
+}
+
+/*ie6*/
+* html #Bildwelt{
+	width:980px;
+	height:185px;
+}
+
+
+#Bildwelt{
+	width:987px;
+	height:185px;
+	padding: 0px;
+	background-image:url(../lay/BG_Content2a.jpg);
+	background-repeat: repeat-x;
+}
+
+/*-------------------------- NebenNav ---------------------------------*/
+
+#NebenNav{
+	font-size: 11px;
+	width:990px;
+	padding: 0px;
+}
+
+/* --- NNLinks --- */
+#NebenNavExtern{
+	float:left;
+	padding: 11px 0px 0px 10px;
+	color:#084194;
+	font-size:11px;
+	text-transform:uppercase;
+	height: 43px;
+}
+
+#NebenNavExtern a.SSJ{
+width:155px!important;
+}
+
+/*ie7*/
+*:first-child+html #NebenNavExtern{
+	margin-top:-3px;
+}
+
+#NebenNavExtern ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#NebenNavExtern ul li{
+	/*display: inline; */
+	float: left;
+}
+
+#NebenNavExtern a:link, #NebenNavExtern a:visited, #NebenNavExtern a:active{
+	font-size:11px;
+	height:43px;
+	color:#084194;
+	font-size:11px;
+	text-transform:uppercase;
+	text-decoration:none;
+	display: block;
+	width: 110px;
+  	float: left;
+  	text-align: center;
+}
+
+#NebenNavExtern a:hover{
+	text-decoration:none;
+}
+
+#NebenNavExtern .nnavimgbox{
+	display: block;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+
+.nnavtrenner{
+	padding: 26px 7px 0px 0px;
+	float: left;
+}
+
+*:first-child+html .nnavtrenner{
+	padding: 31px 0px 0px 0px;
+}
+
+
+/* --- NNRechts --- */
+#NebenNavIntern{
+	float:right;
+	color:#084194;
+	font-size:11px;
+	text-transform:uppercase;
+	padding: 37px 0px 0px 0px;
+	height: 20px;
+}
+
+#NebenNavIntern ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#NebenNavIntern ul li{
+	display:inline;
+	padding: 0px 0px 0px 0px;
+}
+
+a.Sitemap{
+	color:#084194;
+	font-size:11px;
+	text-transform:uppercase;
+	text-decoration:none;
+}
+
+a.Sitemap:hover{
+	color:#084194;
+	font-size:11px;
+	text-transform:uppercase;
+	text-decoration:underline;
+}
+
+a.Kontakt{
+	color:#084194;
+	font-size:11px;
+	text-transform:uppercase;
+	text-decoration:none;
+}
+
+a.Kontakt:hover{
+	color:#084194;
+	font-size:11px;
+	text-transform:uppercase;
+	text-decoration:underline;
+}
+
+a.Login{
+	padding-right: 15px;
+	color:#084194;
+	font-size:11px;
+	text-transform:uppercase;
+	text-decoration:none;
+	background-image:url(../lay/Login.gif);
+	background-repeat:no-repeat;
+	background-position:right;
+}
+
+a.Login:hover{
+	padding-right: 15px;
+	color:#084194;
+	font-size:11px;
+	text-transform:uppercase;
+	text-decoration:underline;
+	background-image:url(../lay/Login.gif);
+	background-repeat:no-repeat;
+	background-position:right;
+}
+
+/*-------------------------------------------------------------------*/
+
+#Suche {
+	float:right;
+	margin: 0px 15px 0px 0px;
+  padding: 35px 0px 0px 0px;
+	height: 20px;
+}
+
+#Suche form{
+	display:inline;
+	padding:0px;
+	margin: 0px;
+}
+
+#Suche .searchfield {
+	border: 0px none;
+	background-image:url(../lay/searchfield.gif);
+	background-repeat:no-repeat;
+	background-position: top left;
+	color: #084194;
+	font-size: 10px;
+	line-height: 13px;
+	padding: 3px 5px 0px 6px;
+	margin: 0px 5px 0px 0px;
+	width: 86px;
+	height: 15px;
+}
+
+#Suche .submitbtn{
+	vertical-align: top;
+	border: 0px none;
+	padding: 1px 0px 0px 0px;
+	width: auto;
+	display: inline;
+}
+
+/*-------------------------------------------------------------------*/
+
+#BG_HNav{
+	width: 990px;
+	height:120px;
+	background-image:url(../lay/BG_HNav2a.jpg);
+	background-repeat:no-repeat;
+}
+
+#Logo{
+    display: inline;
+    float: left;
+    height: 65px;
+    padding: 35px 0 0;
+    text-align: center;
+    width: 155px;
+}
+
+#HNav_All{
+	float:left;
+	font-size:13px;
+	text-decoration:none;
+	background-color: transparent;
+	width: 767px;
+	height:107px;
+	margin:0px;
+	padding:13px 0px 0px 37px;
+}
+
+/*-------------------------- Navigationspunkte ---------------------------------*/
+
+#HNav_All ul{
+	margin:0px;
+	padding: 0px;
+	width: 790px;
+	list-style-type: none;
+}
+
+#HNav_All ul li{
+	float: left;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	background-image: url(../lay/HNav_Icon.gif);
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+#HNav_All ul li a:link, #HNav_All ul li a:active, #HNav_All ul li a:visited{
+		height: 80px;
+		padding: 6px 23px 0px 15px;
+		text-decoration:none;
+		color: #fff;
+		display: block;
+}
+
+#HNav_All ul li .navimgbox{
+/* display: none; */
+  display: block;
+  padding: 15px 0px 0px 0px;
+  text-align: center;
+}
+
+#HNav_All ul li a.act .navimgbox{
+  display: block;
+}
+
+/*-------------------------------------------------------------------*/
+
+#HNav_All ul li a.nav1:link, #HNav_All ul li a.nav1:active, #HNav_All ul li a.nav1:visited{
+  width: 28px;
+}
+
+#HNav_All ul li a.nav2:link, #HNav_All ul li a.nav2:active, #HNav_All ul li a.nav2:visited{
+  width: 52px;
+}
+
+#HNav_All ul li a.nav3:link, #HNav_All ul li a.nav3:active, #HNav_All ul li a.nav3:visited{
+  width: 86px;
+}
+
+#HNav_All ul li a.nav4:link, #HNav_All ul li a.nav4:active, #HNav_All ul li a.nav4:visited{
+  width: 72px;
+}
+
+#HNav_All ul li a.nav5:link, #HNav_All ul li a.nav5:active, #HNav_All ul li a.nav5:visited{
+  width: 67px;
+}
+
+#HNav_All ul li a.nav6:link, #HNav_All ul li a.nav6:active, #HNav_All ul li a.nav6:visited{
+  width: 43px;
+}
+
+#HNav_All ul li a.nav7:link, #HNav_All ul li a.nav7:active, #HNav_All ul li a.nav7:visited{
+  width: 66px !important;
+}
+
+/*--------------------Ende Navigation-------------------------*/
+
+#ContentHG{
+  background-image: url(../lay/BG_Content2a.jpg);
+  padding: 0px 0px 0px 2px;
+}
+
+#einespalte #ContentHG{
+	background-image: url(../lay/BG_Content_Einspaltig2.jpg);
+	padding: 0px 0px 0px 2px;
+}
+
+#einespalte #Content_All {
+background-image:url(../lay/BG_Content_Einspaltig2.jpg);
+padding:0;
+width:980px;
+}
+
+#einespalte #Content{
+	width: 720px;
+	/* Änderung RP 18.12.2009 */
+	width: 715px;
+}
+
+#einespalte #Container_R_Spalte{
+display: none;
+}
+
+
+#Content_All{
+  background-image: url(../lay/BG_Content2b.jpg);
+  padding: 0px 0px 0px 0px;
+  width: 980px;
+}
+
+/*--------------------Anfang Pfad------------------*/
+
+#breadCr {
+	color:#2f2e2e;
+	background-color: #E5E3E4;
+	height: 15px;
+	font-size:11px;
+	padding:8px 2px 8px 18px;
+	width: 960px;
+}
+
+.aBreadCr, a.aBreadCr:link, a.aBreadCr:visited, a.aBreadCr:active {
+	text-decoration:none;
+	color:#2f2e2e;
+	font-size:11px;}
+
+a.aBreadCr:hover {
+	text-decoration:underline;}
+
+
+/*--------------------Ende der NebenNav2--------------------*/
+
+
+
+/*----------------- Anfang Navigation CNAV -----------------*/
+#CNav{
+	margin: 8px 0px 0px 15px;
+	float:left;
+	display: inline;
+	text-align: left;
+	width: 193px;
+}
+
+.CNav_EckenO{
+ 	font-size: 13px;
+	color: #ffffff;
+	font-weight: bold;
+	background-image:url(../lay/EckenO_CNav_grau.gif);
+	background-position: top left;
+	background-repeat:no-repeat;
+	padding: 8px 0px 6px 14px;
+	margin: 2px 0px 0px 0px;
+}
+
+#lsvs .CNav_EckenO{
+	background-image:url(../lay/EckenO_CNav_hblau.gif);
+	background-position: top left;
+	background-repeat:no-repeat;
+}
+
+#lsvsnet .CNav_EckenO{
+	background-image:url(../lay/EckenO_CNav_hblau.gif);
+	background-position: top left;
+	background-repeat:no-repeat;
+}
+
+#aktionen .CNav_EckenO{
+	background-image:url(../lay/EckenO_CNav_rot.gif);
+	background-position: top left;
+	background-repeat:no-repeat;
+}
+
+#leistungssport .CNav_EckenO{
+	background-image:url(../lay/EckenO_CNav_gelb.gif);
+	background-position: top left;
+	background-repeat:no-repeat;
+}
+
+#breitensport .CNav_EckenO{
+	background-image:url(../lay/EckenO_CNav_gruen.gif);
+	background-position: top left;
+	background-repeat:no-repeat;
+}
+
+#sportschule .CNav_EckenO{
+	background-image:url(../lay/EckenO_CNav_dblau.gif);
+	background-position: top left;
+	background-repeat:no-repeat;
+}
+
+#service .CNav_EckenO{
+	background-image:url(../lay/EckenO_CNav_orange.gif);
+	background-position: top left;
+	background-repeat:no-repeat;
+}
+
+#online-anmeldung #CNav {
+display: none;
+}
+
+#CNav ul{
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+	width: 193px;
+}
+
+#CNav ul li{
+	background-image:url(../lay/BG_CNav.jpg);
+	background-repeat:repeat-y;
+	background-position: top left;
+	margin:0px;
+	padding:0px;
+}
+
+#CNav ul li a.CNav, #CNav ul li a.CNav:link, #CNav ul li a.CNav:visited{
+	width:149px;
+	display:block;
+	font-weight:bold;
+	font-size:12px;
+	padding:6px 10px 5px 25px;
+	text-decoration:none;
+	color: #2f2e2e;
+	background-image:url(../lay/BG_CNav_grau.gif);
+	background-repeat:no-repeat;
+	background-position:top left;
+}
+
+#CNav ul li ul li a.UNav2Text, #CNav ul li ul li a.UNav2Text:link, #CNav ul li ul li a.UNav2Text:visited{
+	width:126px;
+	display:block;
+	font-weight:bold;
+	font-size:12px;
+	padding:3px 10px 3px 48px;
+	text-decoration:none;
+	color: #2f2e2e;
+	background-image:url(../lay/BG_CNavU_grau.gif);
+	background-repeat:no-repeat;
+	background-color: #D6D3D6;
+	background-position:0 4px;
+}
+
+#CNav ul li ul li a.UNav2TextActive, #CNav ul li ul li a.UNav2TextActive:link, #CNav ul li ul li a.UNav2TextActive:visited{
+	width:126px;
+	display:block;
+	font-weight:bold;
+	font-size:12px;
+	padding:3px 10px 3px 48px;
+	text-decoration:none;
+	color: #2f2e2e;
+	background-image:url(../lay/BG_CNavU_grau.gif);
+	background-repeat:no-repeat;
+	background-color: #D6D3D6;
+	background-position:0 4px;
+}
+
+#lsvs ul li ul li a.UNav2Text,#lsvs ul li ul li a.UNav2Text:link,#lsvs ul li ul li a.UNav2Text:active,#lsvs ul li ul li a.UNav2Text:visited{
+	width:126px;
+	display:block;
+	font-weight:normal;
+	font-size:12px;
+	padding:3px 10px 3px 48px;
+	text-decoration:none;
+	color: #2f2e2e;
+	background-color: #a0d3e7;
+	background-image:url(../lay/BG_CNavU_hblau.gif);
+	background-repeat:no-repeat;
+}
+
+#lsvs ul li ul li a.UNav2Text:hover{
+	width:126px;
+	display:block;
+	font-weight:bold;
+	font-size:12px;
+	padding:3px 10px 3px 48px;
+	text-decoration:none;
+	color: #2f2e2e;
+	background-color: #a0d3e7;
+	background-image:url(../lay/BG_CNavU_hblau.gif);
+	background-repeat:no-repeat;
+}
+
+#lsvs ul li ul li a.UNav2TextActive:link, #lsvs ul li ul li a.UNav2TextActive:active, #lsvs ul li ul li a.UNav2TextActive:visited{
+	width:126px;
+	display:block;
+	font-weight:bold;
+	font-size:12px;
+	padding:3px 10px 3px 48px;
+	text-decoration:none;
+	color: #2f2e2e;
+	background-color: #a0d3e7;
+	background-image:url(../lay/BG_CNavU_hblau.gif);
+	background-repeat:no-repeat;
+	background-position: 0px 4px;
+}
+
+#aktionen ul li ul li a.UNav2Text, #aktionen ul li ul li a.UNav2Text:link, #aktionen ul li ul li a.UNav2Text:visited{
+	width:126px;
+	display:block;
+	font-weight:normal;
+	font-size:12px;
+	padding:3px 10px 3px 48px;
+	text-decoration:none;
+	color: #2f2e2e;
+	background-color: #e1a9ac;
+	background-image:url(../lay/BG_CNavU_rot.gif);
+	background-repeat:no-repeat;
+}
+
+#aktionen ul li ul li a.UNav2Text:hover{
+	width:126px;
+	display:block;
+	font-weight:bold;
+	font-size:12px;
+	padding:3px 10px 3px 48px;
+	text-decoration:none;
+	color: #2f2e2e;
+	background-color: #e1a9ac;
+	background-image:url(../lay/BG_CNavU_rot.gif);
+	background-repeat:no-repeat;
+}
+
+#aktionen ul li ul li a.UNav2TextActive:link, #aktionen ul li ul li a.UNav2TextActive:active, #aktionen ul li ul li a.UNav2TextActive:visited{
+	width:126px;
+	display:block;
+	font-weight:bold;
+	font-size:12px;
+	padding:3px 10px 3px 48px;
+	text-decoration:none;
+	color: #2f2e2e;
+	background-color: #e1a9ac;
+	background-image:url(../lay/BG_CNavU_rot.gif);
+	background-repeat:no-repeat;
+	background-position:0 4px;
+}
+
+
+#lsvsnet ul li ul li a.UNav2Text,#lsvsnet ul li ul li a.UNav2Text:link,#lsvsnet ul li ul li a.UNav2Text:active,#lsvsnet ul li ul li a.UNav2Text:visited{
+	width:126px;
+	display:block;
+	font-weight:normal;
+	font-size:12px;
+	padding:3px 10px 3px 48px;
+	text-decoration:none;
+	color: #2f2e2e;
+	background-color: #a0d3e7;
+	background-image:url(../lay/BG_CNavU_hblau.gif);
+	background-repeat:no-repeat;
+}
+
+#lsvsnet ul li ul li a.UNav2Text:hover{
+	width:126px;
+	display:block;
+	font-weight:bold;
+	font-size:12px;
+	padding:3px 10px 3px 48px;
+	text-decoration:none;
+	color: #2f2e2e;
+	background-color: #a0d3e7;
+	background-image:url(../lay/BG_CNavU_hblau.gif);
+	background-repeat:no-repeat;
+}
+
+#lsvsnet ul li ul li a.UNav2TextActive:link, #lsvsnet ul li ul li a.UNav2TextActive:active, #lsvsnet ul li ul li a.UNav2TextActive:visited{
+	width:126px;
+	display:block;
+	font-weight:bold;
+	font-size:12px;
+	padding:3px 10px 3px 48px;
+	text-decoration:none;
+	color: #2f2e2e;
+	background-color: #a0d3e7;
+	background-image:url(../lay/BG_CNavU_hblau.gif);
+	background-repeat:no-repeat;
+	background-position: 0px 4px;
+}
+
+#leistungssport ul li ul li a.UNav2Text, #leistungssport ul li ul li a.UNav2Text:link, #leistungssport ul li ul li a.UNav2Text:visited{
+	width:126px;
+	display:block;
+	font-weight:normal;
+	font-size:12px;
+	padding:3px 10px 3px 48px;
+	text-decoration:none;
+	color: #2f2e2e;
+	background-color: #E7DFB5;
+	background-image:url(../lay/BG_CNavU_gelb.gif);
+	background-repeat:no-repeat;
+}
+
+#leistungssport ul li ul li a.UNav2Text:hover{
+	width:126px;
+	display:block;
+	font-weight:bold;
+	font-size:12px;
+	padding:3px 10px 3px 48px;
+	text-decoration:none;
+	color: #2f2e2e;
+	background-color: #E7DFB5;
+	background-image:url(../lay/BG_CNavU_gelb.gif);
+	background-repeat:no-repeat;
+}
+
+#leistungssport ul li ul li a.UNav2TextActive:link, #leistungssport ul li ul li a.UNav2TextActive:active, #leistungssport ul li ul li a.UNav2TextActive:visited{
+	width:126px;
+	display:block;
+	font-weight:bold;
+	font-size:12px;
+	padding:3px 10px 3px 48px;
+	text-decoration:none;
+	color: #2f2e2e;
+	background-color: #E7DFB5;
+	background-image:url(../lay/BG_CNavU_gelb.gif);
+	background-repeat:no-repeat;
+	background-position: 0px 4px;
+}
+
+
+#breitensport ul li ul li a.UNav2Text, #breitensport ul li ul li a.UNav2Text:link, #breitensport ul li ul li a.UNav2Text:visited{
+	width:126px;
+	display:block;
+	font-weight:normal;
+	font-size:12px;
+	padding:3px 10px 3px 48px;
+	text-decoration:none;
+	color: #2f2e2e;
+	background-color: #bed29f;
+	background-image:url(../lay/BG_CNavU_gruen.gif);
+	background-repeat:no-repeat;
+}
+
+#breitensport ul li ul li a.UNav2Text:hover{
+	width:126px;
+	display:block;
+	font-weight:bold;
+	font-size:12px;
+	padding:3px 10px 3px 48px;
+	text-decoration:none;
+	color: #2f2e2e;
+	background-color: #bed29f;
+	background-image:url(../lay/BG_CNavU_gruen.gif);
+	background-repeat:no-repeat;
+}
+
+#breitensport ul li ul li a.UNav2TextActive:link, #breitensport ul li ul li a.UNav2TextActive:active, #breitensport ul li ul li a.UNav2TextActive:visited{
+	width:126px;
+	display:block;
+	font-weight:bold;
+	font-size:12px;
+	padding:3px 10px 3px 48px;
+	text-decoration:none;
+	color: #2f2e2e;
+	background-color: #bed29f;
+	background-image:url(../lay/BG_CNavU_gruen.gif);
+	background-repeat:no-repeat;
+	background-position: 0px 4px;
+}
+
+#sportschule ul li ul li a.UNav2Text, #sportschule ul li ul li a.UNav2Text:link, #sportschule ul li ul li a.UNav2Text:visited{
+	width:126px;
+	display:block;
+	font-weight:normal;
+	font-size:12px;
+	padding:3px 10px 3px 48px;
+	text-decoration:none;
+	color: #2f2e2e;
+	background-color: #a2c2d9;
+	background-image:url(../lay/BG_CNavU_dblau.gif);
+	background-repeat:no-repeat;
+}
+
+#sportschule ul li ul li a.UNav2Text:hover{
+	width:126px;
+	display:block;
+	font-weight:bold;
+	font-size:12px;
+	padding:3px 10px 3px 48px;
+	text-decoration:none;
+	color: #2f2e2e;
+	background-color: #a2c2d9;
+	background-image:url(../lay/BG_CNavU_dblau.gif);
+	background-repeat:no-repeat;
+}
+
+#sportschule ul li ul li a.UNav2TextActive:link, #sportschule ul li ul li a.UNav2TextActive:active, #sportschule ul li ul li a.UNav2TextActive:visited{
+	width:126px;
+	display:block;
+	font-weight:bold;
+	font-size:12px;
+	padding:3px 10px 3px 48px;
+	text-decoration:none;
+	color: #2f2e2e;
+	background-color: #a2c2d9;
+	background-image:url(../lay/BG_CNavU_dblau.gif);
+	background-repeat:no-repeat;
+	background-position: 0px 4px;
+}
+
+#service ul li ul li a.UNav2Text, #service ul li ul li a.UNav2Text:link, #service ul li ul li a.UNav2Text:visited{
+	width:126px;
+	display:block;
+	font-weight:normal;
+	font-size:12px;
+	padding:3px 10px 3px 48px;
+	text-decoration:none;
+	color: #2f2e2e;
+	background-color: #eccd9f;
+	background-image:url(../lay/BG_CNavU_orange.gif);
+	background-repeat:no-repeat;
+}
+
+#service ul li ul li a.UNav2Text:hover{
+	width:126px;
+	display:block;
+	font-weight:bold;
+	font-size:12px;
+	padding:3px 10px 3px 48px;
+	text-decoration:none;
+	color: #2f2e2e;
+	background-color: #eccd9f;
+	background-image:url(../lay/BG_CNavU_orange.gif);
+	background-repeat:no-repeat;
+}
+
+#service ul li ul li a.UNav2TextActive:link, #service ul li ul li a.UNav2TextActive:active, #service ul li ul li a.UNav2TextActive:visited{
+	width:126px;
+	display:block;
+	font-weight:bold;
+	font-size:12px;
+	padding:3px 10px 3px 48px;
+	text-decoration:none;
+	color: #2F2E2E;
+	background-color: #ECCD9F;
+	background-image:url(../lay/BG_CNavU_orange.gif);
+	background-repeat:no-repeat;
+	background-position: 0px 4px;
+}
+
+#lsvs ul li a.CNav, #lsvs ul li a.CNav:link, #lsvs ul li a.CNav:visited{
+	width:149px;
+	display:block;
+	font-weight:bold;
+	font-size:12px;
+	padding:6px 10px 5px 25px;
+	text-decoration:none;
+	color: #2f2e2e;
+	background-color: #E5E3E4;
+	background-image:url(../lay/BG_CNav_hblau.gif);
+	background-repeat:no-repeat;
+}
+
+
+#aktionen ul li a.CNav, #aktionen ul li a.CNav:link, #aktionen ul li a.CNav:visited{
+	width:149px;
+	display:block;
+	font-weight:bold;
+	font-size:12px;
+	padding:6px 10px 5px 25px;
+	text-decoration:none;
+	color: #2f2e2e;
+	background-color: #E5E3E4;
+	background-image:url(../lay/BG_CNav_rot.gif);
+	background-repeat:no-repeat;
+	background-position:0 1px;
+}
+
+#lsvsnet ul li a.CNav, #lsvsnet ul li a.CNav:link, #lsvsnet ul li a.CNav:visited{
+	width:149px;
+	display:block;
+	font-weight:bold;
+	font-size:12px;
+	padding:6px 10px 5px 25px;
+	text-decoration:none;
+	color: #2f2e2e;
+	background-color: #E5E3E4;
+	background-image:url(../lay/BG_CNav_hblau.gif);
+	background-repeat:no-repeat;
+}
+
+#leistungssport ul li a.CNav, #leistungssport ul li a.CNav:link, #leistungssport ul li a.CNav:visited{
+	width:149px;
+	display:block;
+	font-weight:bold;
+	font-size:12px;
+	padding:6px 10px 5px 25px;
+	text-decoration:none;
+	color: #2f2e2e;
+	background-color: #E5E3E4;
+	background-image:url(../lay/BG_CNav_gelb.gif);
+	background-repeat:no-repeat;
+}
+
+#breitensport ul li a.CNav, #breitensport ul li a.CNav:link, #breitensport ul li a.CNav:visited{
+	width:149px;
+	display:block;
+	font-weight:bold;
+	font-size:12px;
+	padding:6px 10px 5px 25px;
+	text-decoration:none;
+	color: #2f2e2e;
+	background-color: #E5E3E4;
+	background-image:url(../lay/BG_CNav_gruen.gif);
+	background-repeat:no-repeat;
+}
+
+#sportschule ul li a.CNav, #sportschule ul li a.CNav:link, #sportschule ul li a.CNav:visited{
+	width:149px;
+	display:block;
+	font-weight:bold;
+	font-size:12px;
+	padding:6px 10px 5px 25px;
+	text-decoration:none;
+	color: #2f2e2e;
+	background-color: #E5E3E4;
+	background-image:url(../lay/BG_CNav_dblau.gif);
+	background-repeat:no-repeat;
+}
+
+#service ul li a.CNav, #service ul li a.CNav:link, #service ul li a.CNav:visited{
+	width:149px;
+	display:block;
+	font-weight:bold;
+	font-size:12px;
+	padding:6px 10px 5px 25px;
+	text-decoration:none;
+	color: #2f2e2e;
+	background-color: #E5E3E4;
+	background-image:url(../lay/BG_CNav_orange.gif);
+	background-repeat:no-repeat;
+}
+
+#CNav ul li a.CNav:hover{
+	width:149px;
+	display:block;
+	font-weight:bold;
+	font-size:12px;
+	padding:6px 10px 5px 25px;
+	text-decoration:none;
+	color: #2f2e2e;
+	background-image:url(../lay/BG_CNavAktiv_grau.gif);
+	background-repeat:no-repeat;
+	background-color: #D6D3D6;
+}
+
+#lsvs ul li a.CNav:hover{
+	width:149px;
+	display:block;
+	font-weight:bold;
+	font-size:12px;
+	padding:6px 10px 5px 25px;
+	text-decoration:none;
+	color: #2f2e2e;
+	background-color: #a0d3e7;
+	background-image:url(../lay/BG_CNavAktiv_hblau.gif);
+	background-repeat:no-repeat;
+}
+
+#lsvsnet ul li a.CNav:hover{
+	width:149px;
+	display:block;
+	font-weight:bold;
+	font-size:12px;
+	padding:6px 10px 5px 25px;
+	text-decoration:none;
+	color: #2f2e2e;
+	background-color: #a0d3e7;
+	background-image:url(../lay/BG_CNavAktiv_hblau.gif);
+	background-repeat:no-repeat;
+}
+
+#aktionen ul li a.CNav:hover{
+	width:149px;
+	display:block;
+	font-weight:bold;
+	font-size:12px;
+	padding:6px 10px 5px 25px;
+	text-decoration:none;
+	color: #2f2e2e;
+	background-color: #e1a9ac;
+	background-image:url(../lay/BG_CNavAktiv_rot.gif);
+	background-repeat:no-repeat;
+	background-position:0 0;
+}
+
+#leistungssport ul li a.CNav:hover{
+	width:149px;
+	display:block;
+	font-weight:bold;
+	font-size:12px;
+	padding:6px 10px 5px 25px;
+	text-decoration:none;
+	color: #2f2e2e;
+	background-color: #E7DFB5;
+	background-image:url(../lay/BG_CNavAktiv_gelb.gif);
+	background-repeat:no-repeat;
+	background-position:top left;
+}
+
+#breitensport ul li a.CNav:hover{
+	width:149px;
+	display:block;
+	font-weight:bold;
+	font-size:12px;
+	padding:6px 10px 5px 25px;
+	text-decoration:none;
+	color: #2f2e2e;
+	background-color: #bed29f;
+	background-image:url(../lay/BG_CNavAktiv_gruen.gif);
+	background-repeat:no-repeat;
+}
+
+#sportschule ul li a.CNav:hover{
+	width:149px;
+	display:block;
+	font-weight:bold;
+	font-size:12px;
+	padding:6px 10px 5px 25px;
+	text-decoration:none;
+	color: #2f2e2e;
+	background-color: #a2c2d9;
+	background-image:url(../lay/BG_CNavAktiv_dblau.gif);
+	background-repeat:no-repeat;
+}
+
+#service ul li a.CNav:hover{
+	width:149px;
+	display:block;
+	font-weight:bold;
+	font-size:12px;
+	padding:6px 10px 5px 25px;
+	text-decoration:none;
+	color: #2f2e2e;
+	background-color: #eccd9f;
+	background-image:url(../lay/BG_CNavAktiv_orange.gif);
+	background-repeat:no-repeat;
+}
+
+#CNav ul li a.CNavActive:link, #CNav ul li a.CNavActive:active, #CNav ul li a.CNavActive:visited /*,  #CNav ul li a.CNav:hover */ {
+	width:149px;
+	display:block;
+	font-weight:bold;
+	font-size:12px;
+	padding:6px 10px 5px 25px;
+	text-decoration:none;
+	color: #2f2e2e;
+	background-image:url(../lay/BG_CNavAktiv_grau.gif);
+	background-repeat:no-repeat;
+	background-color: #D6D3D6;
+}
+
+#lsvs ul li a.CNavActive:link, #lsvs ul li a.CNavActive:active, #lsvs ul li a.CNavActive:visited /*,  #lsvs ul li a.CNav:hover */ {
+	width:149px;
+	display:block;
+	font-weight:bold;
+	font-size:12px;
+	padding:6px 10px 5px 25px;
+	text-decoration:none;
+	color: #2f2e2e;
+	background-image:url(../lay/BG_CNavAktiv_hblau.gif);
+	background-repeat:no-repeat;
+	background-color: #a0d3e7;
+}
+
+#aktionen ul li a.CNavActive:link, #aktionen ul li a.CNavActive:active, #aktionen ul li a.CNavActive:visited /*,  #aktionen ul li a.CNav:hover */ {
+	width:149px;
+	display:block;
+	font-weight:bold;
+	font-size:12px;
+	padding:6px 10px 5px 25px;
+	text-decoration:none;
+	color: #2f2e2e;
+	background-image:url(../lay/BG_CNavAktiv_rot.gif);
+	background-repeat:no-repeat;
+	background-color: #e1a9ac;
+	background-position:0 0;
+}
+
+#lsvsnet ul li a.CNavActive:link, #lsvsnet ul li a.CNavActive:active, #lsvsnet ul li a.CNavActive:visited /*,  #lsvsnet ul li a.CNav:hover */ {
+	width:149px;
+	display:block;
+	font-weight:bold;
+	font-size:12px;
+	padding:6px 10px 5px 25px;
+	text-decoration:none;
+	color: #2f2e2e;
+	background-image:url(../lay/BG_CNavAktiv_hblau.gif);
+	background-repeat:no-repeat;
+	background-color: #a0d3e7;
+}
+
+
+#leistungssport ul li a.CNavActive:link, #leistungssport ul li a.CNavActive:active, #leistungssport ul li a.CNavActive:visited /*,  #leistungssport ul li a.CNav:hover */ {
+	width:149px;
+	display:block;
+	font-weight:bold;
+	font-size:12px;
+	padding:6px 10px 5px 25px;
+	text-decoration:none;
+	color: #2f2e2e;
+	background-image:url(../lay/BG_CNavAktiv_gelb.gif);
+	background-repeat:no-repeat;
+	background-color: #E7DFB5;
+}
+
+#breitensport ul li a.CNavActive:link, #breitensport ul li a.CNavActive:active, #breitensport ul li a.CNavActive:visited /*,  #breitensport ul li a.CNav:hover */ {
+	width:149px;
+	display:block;
+	font-weight:bold;
+	font-size:12px;
+	padding:6px 10px 5px 25px;
+	text-decoration:none;
+	color: #2f2e2e;
+	background-image:url(../lay/BG_CNavAktiv_gruen.gif);
+	background-repeat:no-repeat;
+	background-color: #bed29f;
+}
+
+#sportschule ul li a.CNavActive:link, #sportschule ul li a.CNavActive:active, #sportschule ul li a.CNavActive:visited /*,  #breitensport ul li a.CNav:hover */ {
+	width:149px;
+	display:block;
+	font-weight:bold;
+	font-size:12px;
+	padding:6px 10px 5px 25px;
+	text-decoration:none;
+	color: #2f2e2e;
+	background-image:url(../lay/BG_CNavAktiv_dblau.gif);
+	background-repeat:no-repeat;
+	background-color: #a2c2d9;
+}
+
+#service ul li a.CNavActive:link, #service ul li a.CNavActive:active, #service ul li a.CNavActive:visited /*,  #service ul li a.CNav:hover */ {
+	width:149px;
+	display:block;
+	font-weight:bold;
+	font-size:12px;
+	padding:6px 10px 5px 25px;
+	text-decoration:none;
+	color: #2f2e2e;
+	background-image:url(../lay/BG_CNavAktiv_orange.gif);
+	background-repeat:no-repeat;
+	background-color: #eccd9f;
+}
+
+
+
+.CNav_EckenU{
+	background-image:url(../lay/EckenU_CNav.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+	text-align: left!IMPORTANT;
+	height:18px;
+	padding: 0px 0px 6px 0px;
+	margin:0px;
+}
+
+/*--------------------Anfang Content--------------------*/
+#Content{
+	float:left;
+	width: 507px;
+	min-height:300px;
+	padding: 0px;
+	margin: 10px 37px 15px 18px;
+	height: auto !important;
+	height: 300px;
+	font-size: 13px;
+	line-height: 20px;
+	color: #2f2e2e;
+}
+
+
+
+
+#Content_Right{
+  float:left;
+  width: 193px;
+  margin: 7px 0px 10px 38px;
+}
+
+#Container_R_Spalte{
+	float:left;
+	margin: 10px 0 0 0;
+}
+
+
+#Container_R_EckenO{
+	width: 199px;
+/*	height:30px; */
+	margin: 0 0 10px 0;
+	background-image:url(../lay/EckenO_Content_Container.jpg);
+	background-repeat:no-repeat;
+	text-align:left;
+	padding: 0 0 3px 0;
+}
+
+#Container_R h1{
+	font-size:13px !important;
+	color:#084194 !important;
+	margin: 0px 12px 0px 9px !important;
+	padding: 6px 0px 0px 0px !important;
+}
+
+
+#Container_R{
+	width: 199px;
+	text-align:left;
+	background-image:url(../lay/BG_Content_Container.jpg);
+	background-repeat:repeat-y;
+	background-position:bottom;
+	text-align:left;
+	margin-bottom:10px;
+	padding-bottom:1px;
+}
+
+#Container_R .Container_R_Vereinssuche h1{
+	background-image:url(../lay/Vereinssuche.jpg);
+        background-position: -0px 4px;
+	background-repeat:no-repeat;
+	font-size:13px !important;
+	color:#084194 !important;
+	margin: 0px 12px 0px 9px !important;
+	padding: 7px 0px 0px 25px !important;
+}
+
+
+
+#Container_R div.csc-textpic-center{
+	margin-top:10px;
+}
+
+#Container_R .myGallery{
+	border:0px solid #fff;
+	background-color: none;
+	display:none;
+	z-index:5;
+}
+
+#Container_R .tx-rgsmoothgallery-pi1{
+	margin: 5px 0px 5px 45px;
+	/*padding: 0px 0px 10px 0px;*/
+	text-align: center;
+	border-bottom:1px solid #BBBBBB;
+}
+
+#Container_R .jdGallery .slideElement{
+	background-color: none;
+	background-image:url(../lay/BG_Container3_jdGallery.jpg);
+	background-repeat:y-repeat;
+	background-position:center;
+}
+
+
+.tx-rgsmoothgallery-pi1{
+	background-color: none !important;
+	background-image: none !important;
+}
+
+#Container_R p{
+	padding: 0px 10px 0px 10px;
+}
+
+#Container_R .tx-ttaddress-pi1 p {
+padding-left:0px;
+}
+
+
+.Container_R_Bild{
+	float: left;
+	padding: 3px 3px 0px 0px;
+}
+
+.Container_R_H1{
+	float: left;
+	font-size: 12px;
+	color: #084194;
+	font-weight: bold;
+	height:25px;
+	padding: 6px 0px 0px 10px;
+	margin: 0px 0px 0px 0px;
+	/*padding: 1px 0px 1px 0px;*/
+	}
+
+.Container_R_Teaser{
+	padding: 3px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+.Container_R_Contact{
+	padding: 3px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+/*--------------------Ende Content--------------------*/
+
+
+/*--------------------Anfang Footer--------------------*/
+#footer{
+	background-image:url(../lay/BG_Footer2_01.jpg);
+	background-repeat:no-repeat;
+	background-position: 0px bottom;
+	padding: 16px 0px 0px 25px;
+	/*margin-left:-10px;*/
+	width:965px;
+	height: 57px;
+	font-size: 11px;
+	color: #fff;
+	}
+
+#footer a:link,#footer a:visited, #footer a:active  {
+	font-size: 11px;
+	color: #fff;
+	text-decoration:none;
+}
+
+#footer a:hover {
+	text-decoration:underline;
+}
+/*--------------------Ende Footer--------------------*/
+
+
+
+.csc-sitemap ul{
+	margin-top:8px !IMPORTANT;
+}
+
+.csc-sitemap ul li{
+	border-left:3px solid #1a4297!IMPORTANT;
+	padding-left:10px !IMPORTANT;
+	list-style-image:none !IMPORTANT;
+	list-style-type:none !IMPORTANT;
+}
+
+.csc-sitemap ul li li
+{
+	border-left:3px solid #618ec7 !IMPORTANT;
+}
+
+.csc-sitemap ul li a:link,
+.csc-sitemap ul li a:active,
+.csc-sitemap ul li a:visited{
+	color:#1a4297;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.csc-sitemap ul li a:hover{
+	text-decoration:underline;
+}
+
+.csc-textpic .csc-textpic-imagewrap .csc-textpic-image .csc-textpic-caption{
+		margin: 0px;
+		padding: 3px 0px 5px 25px;
+		color:#084194;
+		font-weight:bold;
+		font-size: 11px;
+		background-image:url(../lay/textpic_img.gif);
+		background-repeat: no-repeat;
+		background-position: left 3px;
+		}
+
+.csc-textpic .csc-textpic-imagewrap dl.csc-textpic-image dd {
+		float:none;
+		}
+
+dl.csc-textpic-image dd {
+		margin:0px;
+		}
+
+.dd{
+	margin: 0px;
+	padding: 0px;
+}
+
+/*---------------Diverses----------------*/
+
+/* diverses */
+.clearer{
+	height: 0px;
+	width: 0px;
+	font-size: 0px;
+	line-height: 0px;
+	margin:0;
+  padding:0;
+	clear: both;
+	overflow: hidden;
+}
+
+a img{
+  border: 0px none;
+}
+
+#Content hr.closeline{
+	margin: 5px 0 5px 0;
+	padding: 0 0 0 0;
+	border-top: 0px none;
+	border-right: 0px none;
+	border-left: 0px none;
+	border-bottom: 0px solid #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------ sportsuche ------------------ */
+
+#Container_R .tx-sportsuche-pi1 form{
+	border: none;
+	margin-left: 10px;
+	padding: 0px;
+	width: 180px;
+}
+
+#Container_R .tx-sportsuche-pi1 fieldset{
+	border: none;
+	margin: 0px;
+	padding: 0px;
+	width: 180px !IMPORTANT;
+}
+
+
+#Container_R .tx-sportsuche-pi1 label{
+  	display:block;
+	/*padding:3px 0;
+	width:272px;*/
+	vertical-align:middle;
+}
+
+
+#Container_R .tx-sportsuche-pi1 p{
+	color:#575757;
+	font-family:Trebuchet MS,Arial,Verdana,sans-serif;
+	font-size:11px;
+	text-decoration: none;
+}
+
+#Container_R .tx-sportsuche-pi1 p a:link, #Container_R .tx-sportsuche-pi1 p a:active, #Container_R .tx-sportsuche-pi1 p a:visited{
+	color:#575757;
+	font-family:Trebuchet MS,Arial,Verdana,sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+#Container_R .tx-sportsuche-pi1 p a:hover{
+	color:#575757;
+	font-family:Trebuchet MS,Arial,Verdana,sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	text-decoration: underline;
+}
+
+#Container_R .tx-sportsuche-pi1 .c-sportart {
+	color:#575757;
+	font-family:Trebuchet MS,Arial,Verdana,sans-serif;
+	font-size:11px;
+	line-height:normal;
+	height: 25px;
+	width: 180px;
+	padding:0px 0px 0px 0px;
+}
+
+#Container_R .tx-sportsuche-pi1 .sportart{
+	display:block;
+	float:left;
+	margin:0 11px 0 -16px;
+	padding:0;
+	text-align:right;
+	width:80px;
+}
+
+#Container_R .tx-sportsuche-pi1 .selection select{
+	display:block;
+	float:left;
+	margin:0px;
+	padding:0px;
+	width: 100px !IMPORTANT;
+	text-align:left;
+	font-size: 10px;
+	height: 20px;
+}
+
+#Container_R .tx-sportsuche-pi1 .c-verein{
+	color:#575757;
+	font-family:Trebuchet MS,Arial,Verdana,sans-serif;
+	font-size:11px;
+	line-height:normal;
+	height: 25px;
+	width: 180px;
+	padding:0px 0px 0px 0px;
+}
+
+#Container_R .tx-sportsuche-pi1 .zielgruppe{
+	display:block;
+	float:left;
+	margin:0 11px 0 -16px;
+	padding:0;
+	text-align:right;
+	width:80px;
+}
+
+#Container_R .tx-sportsuche-pi1 .vname{
+	display:block;
+	float:left;
+	margin:0 11px 0 -16px;
+	padding:0;
+	text-align:right;
+	width:80px;
+}
+
+#Container_R .tx-sportsuche-pi1 .c-ort{
+	color:#575757;
+	font-family:Trebuchet MS,Arial,Verdana,sans-serif;
+	font-size:11px;
+	line-height:normal;
+	/*height: 30px;*/
+	width: 225px;
+	/*padding:5px 0px 0px 0px;*/
+}
+
+#Container_R .tx-sportsuche-pi1 .c-plz{
+	color:#575757;
+	/*float:left;*/
+	font-family:Trebuchet MS,Arial,Verdana,sans-serif;
+	font-size:11px;
+	height:22px;
+	line-height:normal;
+	margin-left:43px;
+	padding:0;
+	width:100px;
+}
+
+#Container_R .tx-sportsuche-pi1 .plz{
+	display:block;
+	float:left;
+	margin:0 0 0 -1px;
+	padding:0;
+	text-align:left;
+	width:33px;
+}
+
+#Container_R .tx-sportsuche-pi1 .input_plz{
+	display:block;
+	float:left;
+	height:15px;
+	margin:0;
+	padding:0;
+	text-align:left;
+	width:60px;
+}
+
+*:first-child+html #Container_R .tx-sportsuche-pi1 .input_plz{
+	margin-left:-11px;
+}
+
+#Container_R .tx-sportsuche-pi1 .input #verein{
+	width:100px;
+}
+
+#Container_R .tx-sportsuche-pi1 .selection #sportart{
+	width:100px;
+}
+
+#Container_R .tx-sportsuche-pi1 .c-umkreis{
+	color:#575757;
+	float:left;
+	font-family:Trebuchet MS,Arial,Verdana,sans-serif;
+	font-size:11px;
+	height:25px;
+	line-height:normal;
+	margin-right:10px;
+	padding:0 0 0 20px;
+	width:95px;
+}
+
+#Container_R .tx-sportsuche-pi1 .umkreis{
+	display:block;
+	float:left;
+	margin:0;
+	padding:0;
+	text-align:left;
+	width:50px;
+}
+
+#Container_R .tx-sportsuche-pi1 .selection_umkreis{
+	display:block;
+	float:left;
+	margin: 0px 0px 0px 5px;
+	padding: 0px 0px 0px 0px;
+	text-align:right;
+	width: 40px;
+	height: 15px;
+	text-align:left;
+}
+
+#Container_R .tx-sportsuche-pi1 .input {
+	display:block;
+	float:left;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	text-align:left;
+	width: 90px;
+	height: 15px;
+}
+
+#Container_R .tx-sportsuche-pi1 .c-submit{
+	color:#575757;
+	font-family:Trebuchet MS,Arial,Verdana,sans-serif;
+	font-size:11px;
+	line-height:normal;
+	margin-top:5px;
+
+	width: 180px;
+
+	text-align: center;
+}
+
+/*ie7*/
+*:first-child+html #Container_R .tx-sportsuche-pi1 .c-submit{
+margin: 20px 0px -45px 0px;
+}
+
+#Container_R .tx-sportsuche-pi1 .submitter{
+	background-image:url(../lay/sportsuche.gif);
+	background-repeat:no-repeat;
+	background-position: bottom right;
+	background-color:none;
+	border: none;
+	float: right;
+	height:15px;
+	width:120px;
+}
+
+/* Änderung RP 18.12.2009
+Verlinkung der Überschrift linke Navi */
+.CNav_EckenO a {
+text-decoration:none;
+color:white;
+}
+
+.CNav_EckenO a:hover {
+text-decoration:none;
+
+}
+
+.tx-felogin-pi1 {
+margin-left:10px;
+margin-right:10px;
+}
+
+.tx-felogin-pi1 fieldset {
+padding:0px;
+}
+
+
+#Content ul.csc-menu-1 {
+list-style-type:none;
+margin:0px;
+}
+
+#Content  ul.csc-menu-1 li a {
+color:#1a4297;
+	font-weight:bold;
+	text-decoration:none;
+	padding-left:-10px;
+}
+
+
+
+/* ------------------ sportsuche ------------------ */
+
+#Content .vereinssuche{
+background-color:#FFFFFF;
+background-position:0 top;
+background-repeat:no-repeat;
+padding:5px 15px 15px 0;
+}
+
+#Content .vereinssuche select {
+width:140px;
+font-size:11px;
+}
+
+#Content .tx-sportsuche-pi1 fieldset{
+	border: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+#Content .tx-sportsuche-pi1 label{
+  	display:block;
+	/*padding:3px 0;
+	width:272px;*/
+	vertical-align:middle;
+}
+
+#Content .tx-sportsuche-pi1 p{
+	color:#575757;
+	font-family:Trebuchet MS,Arial,Verdana,sans-serif;
+	font-size:11px;
+	text-decoration: none;
+}
+
+#Content .tx-sportsuche-pi1 p a:link, #Content .tx-sportsuche-pi1 p a:active, #Content .tx-sportsuche-pi1 p a:visited{
+	color:#575757;
+	font-family:Trebuchet MS,Arial,Verdana,sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+#Content .tx-sportsuche-pi1 p a:hover{
+	color:#575757;
+	font-family:Trebuchet MS,Arial,Verdana,sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	text-decoration: underline;
+}
+
+#Content .tx-sportsuche-pi1 .c-sportart {
+	color:#575757;
+	font-family:Trebuchet MS,Arial,Verdana,sans-serif;
+	font-size:11px;
+	line-height:normal;
+	height: 25px;
+	width: 180px;
+	padding:0px 0px 0px 0px;
+}
+
+#Content .tx-sportsuche-pi1 .sportart{
+	display:block;
+	float:left;
+	margin:0 11px 0 -16px;
+	padding:0;
+	text-align:right;
+	width:80px;
+}
+
+#Content .tx-sportsuche-pi1 .selection{
+	display:block;
+	float:left;
+	margin:0px;
+	padding:0px;
+	width:90px;
+	text-align:left;
+}
+
+#Content .tx-sportsuche-pi1 .c-verein{
+	color:#575757;
+	font-family:Trebuchet MS,Arial,Verdana,sans-serif;
+	font-size:11px;
+	line-height:normal;
+	height: 25px;
+	width: 180px;
+	padding:0px 0px 0px 0px;
+}
+
+#Content .tx-sportsuche-pi1 .vname,#Content .tx-sportsuche-pi1 .zielgruppe{
+	display:block;
+	float:left;
+	margin:0 11px 0 -16px;
+	padding:0;
+	text-align:right;
+	width:80px;
+}
+#Content .tx-sportsuche-pi1 .c-ort{
+	color:#575757;
+	font-family:Trebuchet MS,Arial,Verdana,sans-serif;
+	font-size:11px;
+	line-height:normal;
+	height: 30px;
+	width: 225px;
+	padding:5px 0px 0px 0px;
+}
+
+#Content .tx-sportsuche-pi1 .c-plz{
+	color:#575757;
+	/*float:left;*/
+	font-family:Trebuchet MS,Arial,Verdana,sans-serif;
+	font-size:11px;
+	height:25px;
+	line-height:normal;
+	margin-left:43px;
+	padding:0;
+	width:100px;
+}
+
+#Content .tx-sportsuche-pi1 .plz{
+	display:block;
+	float:left;
+	margin:0 0 0 -1px;
+	padding:0;
+	text-align:left;
+	width:33px;
+}
+
+#Content .tx-sportsuche-pi1 .input_plz{
+	display:block;
+	float:left;
+	height:15px;
+	margin:0;
+	padding:0;
+	text-align:left;
+	width:40px;
+}
+
+*:first-child+html #Content .tx-sportsuche-pi1 .input_plz{
+	margin-left:-11px;
+}
+
+#Content .tx-sportsuche-pi1 .input #verein{
+	width:136px;
+}
+
+#Content .tx-sportsuche-pi1 .selection #sportart{
+	width:140px;
+}
+
+
+#Content .tx-sportsuche-pi1 .c-umkreis{
+color:#575757;
+float:left;
+font-family:Trebuchet MS,Arial,Verdana,sans-serif;
+font-size:11px;
+height:25px;
+line-height:normal;
+margin-right:10px;
+padding:0 0 0 20px;
+width:95px;
+}
+
+#Content .tx-sportsuche-pi1 .umkreis{
+display:block;
+float:left;
+margin:0;
+padding:0;
+text-align:left;
+width:50px;
+}
+
+#Content .tx-sportsuche-pi1 .selection_umkreis{
+	display:block;
+	float:left;
+	margin: 0px 0px 0px 5px;
+	padding: 0px 0px 0px 0px;
+	text-align:right;
+	width: 40px;
+	height: 15px;
+	text-align:left;
+}
+
+#Content .tx-sportsuche-pi1 .input {
+	display:block;
+	float:left;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	text-align:left;
+	width:90px;
+	height: 15px;
+}
+
+#Content .tx-sportsuche-pi1 .c-submit{
+	color:#575757;
+	font-family:Trebuchet MS,Arial,Verdana,sans-serif;
+	font-size:11px;
+	height:25px;
+	line-height:normal;
+	margin:25px 0 8px 75px;
+	padding:0;
+	width:210px;
+}
+
+/*ie7*/
+*:first-child+html #Content .tx-sportsuche-pi1 .c-submit{
+margin: 20px 0px -45px 0px;
+}
+
+#Content .tx-sportsuche-pi1 .submitter{
+	background-image:url(../lay/sportsuche.gif);
+	background-repeat:no-repeat;
+	background-position: bottom right;
+	background-color:none;
+	border: none;
+	float: right;
+	height:15px;
+	width:134px;
+}
+
+
+
+
+
+#Content .tx-sportsuche-pi1 .c-zielgruppe {
+color:#575757;
+font-family:Trebuchet MS,Arial,Verdana,sans-serif;
+font-size:11px;
+height:25px;
+line-height:normal;
+padding:0;
+width:180px;
+}

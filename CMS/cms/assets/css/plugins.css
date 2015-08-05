@@ -1,0 +1,930 @@
+@import url(stellenausschreibungen.css);
+
+/* ------------------ newsletter_subscription ------------------ */
+
+#newsletter_subscription .csc-mailform-field input,
+#startseite .csc-mailform .csc-mailform-field input{
+  width: 228px;
+}
+
+#newsletter_subscription .csc-mailform-field input[type="submit"],
+#newsletter_subscription  .newsletter_stop,
+#startseite .csc-mailform input[type="submit"]{
+  background-color: #345eb0;
+  border: medium none;
+  border-radius: 5px;
+  color: #fff;
+  padding: 4px;
+  width: 160px;
+  font-size: 13px;
+    text-align: center;
+}
+#newsletter_subscription .csc-mailform-field input[type="submit"]{
+    width: 168px;
+}
+
+#newsletter_subscription  .newsletter_stop a {
+    font-size: 13px;
+    color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+
+#newsletter_subscription .csc-mailform-field input[type="checkbox"] {
+  width: inherit;
+  float: left;
+}
+
+#startseite .csc-mailform .csc-mailform-field input
+
+
+
+/* ----------------- Smooth Gallery ----------------- */
+#Container_R_Spalte .myGallery {
+  border: 1px solid #fff;
+}
+
+#Container_R_Spalte .jdGallery .slideElement {
+  background-color: #fff;
+}
+
+/* ------------------ Social Media Leiste ------------------ */
+#einespalte #SocialMedias{
+  padding-left: 566px;
+}
+
+#zweispalten #SocialMedias{
+  padding-left: 390px;
+}
+
+/* ------------------ indexed_search ------------------ */
+.tx-indexedsearch-redMarkup{
+  color:#084194;
+}
+
+.tx-indexedsearch-descr{
+  margin:0px;
+}
+
+.tx-indexedsearch-search-select-group{
+  margin-bottom:20px;
+}
+
+.tx-indexedsearch-searchbox label{
+  float:left;
+  width:150px;
+}
+
+.tx-indexedsearch select{
+  border:1px solid #999999;
+  color:#000000;
+  font-size:12px;
+  height:auto;
+  margin:5px 0;
+}
+
+dd.item-size,
+dd.item-crdate{
+  float:left;
+  margin-left:0;
+  width:auto;
+}
+
+.tx-indexedsearch-whatis{
+  margin-top:10px;
+}
+
+.tx-indexedsearch-info dt{
+  float:left;
+  width:auto;
+  color:#084194;
+}
+
+.tx-indexedsearch-info{
+  margin-top:0;
+}
+
+.tx-indexedsearch ul.browsebox{
+  list-style-type: none;
+  margin:10px 0 !important;
+  padding: 0px!IMPORTANT;
+}
+
+.tx-indexedsearch ul.browsebox li{
+  display: inline;
+  padding: 0px 5px 0px 0px;
+}
+
+#tx-indexedsearch-searchbox-button-submit{
+  float:left;
+  margin-bottom:5px;
+  margin-right:3px;
+}
+
+.tx-indexedsearch-form input{
+  border:1px solid #999999;
+  color:#000000;
+  font-size:12px;
+  height:18px;
+  margin-bottom:5px;
+  padding:3px 0 0 3px;
+}
+
+.tx-indexedsearch-icon,
+.tx-indexedsearch-result-number{
+  display:none;
+}
+
+.tx-indexedsearch-res{
+  margin-bottom:15px;
+}
+
+.tx-indexedsearch-res h3{
+  font-weight:bold;
+  font-size:16px;
+  color:#084194;
+}
+
+.tx-indexedsearch-title a{
+  font-size:16px !important;
+}
+
+.search_extended{
+  background-color:#666666 !important;
+  border:1px solid #999999 !important;
+  float:left;
+  padding:0 5px !important;
+  width:auto;
+  height:19px;
+}
+
+.search_extended a{
+  color:#fff;
+  font-size:11px !important;
+  font-family:Verdana,sans-serif;
+}
+
+
+
+
+/* ------------------ powermail ------------------ */
+fieldset.tx-powermail-pi1_fieldset label{
+  width:120px;
+  margin-right:10px;
+}
+
+div.powermail_mandatory_js{ margin: 3px 0 15px 120px;
+}
+
+fieldset.tx-powermail-pi1_fieldset input.powermail_submit {
+  margin:20px 0 10px 129px;
+  font-weight:normal;
+  background-image:url(../lay/senden_btn.gif);
+  background-repeat: no-repeat;
+  background-position: left; 
+  padding:0 6px 0 0;
+}
+
+div.countryzone{
+  margin:10px 0 0 120px;}
+
+fieldset.tx-powermail-pi1_fieldset input.powermail_text,
+fieldset.tx-powermail-pi1_fieldset textarea.powermail_textarea,
+fieldset.tx-powermail-pi1_fieldset select.powermail_select {
+  width:200px;
+  color:#084194;
+  font-size:11px;
+  font-family:Trebuchet MS,Arial,Verdana,sans-serif;
+}
+
+span.powermail_mandatory {
+  color: maroon;
+  font-weight: bold;
+}
+
+input.validation-failed, textarea.validation-failed {
+  /*  background-color: maroon; */
+  border: 1px solid maroon;
+}
+
+div.powermail_mandatory_js {
+  color: maroon;
+  font-weight: bold;
+  clear: both;
+}
+
+fieldset.tx-powermail-pi1_fieldset {
+  border:0px none;
+  padding:0px;
+  margin:0 0 -10px;
+}
+
+fieldset.tx-powermail-pi1_fieldset legend {
+  display: none;
+}
+
+fieldset.tx-powermail-pi1_fieldset label {
+  clear:both;
+  display:block;
+  float:left;
+  font-weight:bold;
+}
+
+fieldset.tx-powermail-pi1_fieldset div.tx_powermail_pi1_fieldwrap_html_radio input.powermail_radio {
+  margin:5px 0;
+}
+
+div.tx_powermail_pi1_fieldwrap_html {
+  margin:10px 0;
+}
+
+p.tx_powermail_pi1_fieldwrap_html_checkbox_title, p.tx_powermail_pi1_fieldwrap_html_radio_title {
+  font-weight:bold;
+  margin:0;
+  padding:0;
+}
+
+td.powermail_all_td {
+  padding:3px 10px 3px 0;
+}
+
+.tx-powermail-pi1_fieldset{
+  font-size: 11px;
+  color: #084194;
+}
+
+.tx-powermail-pi1_fieldset input{
+  font-size: 11px;
+  color: #084194;
+}
+
+#powermaildiv_uid13{
+  margin-left: 130px;
+}
+
+/* ##### MJS Event Pro ##### */
+.tx-mjseventpro-pi1-teaserView-header {
+  background-color:#FFFFFF;
+  border:none;
+  color:#222222;
+  font-size:12px;
+  font-weight:700;
+  margin-bottom:10px;
+  padding:10px;
+}
+
+.tx-mjseventpro-pi1-teaserView-events{
+  border:0px solid #FFF;
+  color:#333333;
+  font-family:Verdana,Arial,Helvetica,sans-serif;
+  font-size:9px;
+  margin:4px;
+  padding:2px;
+  background-color: #FFFFFF!IMPORTANT; 
+}
+
+.tx-mjseventpro-pi1-teaserView-listlink {
+  border: 0px solid #FFF;
+  font-family: Verdana,Arial,Helvetica,sans-serif;
+  margin-top: 4px;
+  padding: 2px;
+}
+
+.tx-mjseventpro-pi1-archiveViewField-bdate,
+.tx-mjseventpro-pi1-listViewField-bdate{
+  clear:both;
+  color:#777777;
+  float:left;
+  font-size:9px;
+  width:160px;
+}
+
+.tx-mjseventpro-pi1-singleViewField-cat {
+  font-size:14px !important;
+}
+
+.tx-mjseventpro-pi1-singleViewField-image,
+.tx-mjseventpro-pi1-singleViewField-imgcap{
+  padding:0 !important;
+}
+
+#bdate, #btime, #entrytime, #edate {
+  float: left;
+  margin: 0 !important;
+  padding-right: 0 !important;
+  width: 25%;
+}
+
+.tx-mjseventpro-pi1-singleViewField-authorandemail p{
+  margin:0;
+}
+
+.tx-mjseventpro-pi1-singleViewField-authorandemail p a{
+  
+}
+/* ------------------ tt_address ------------------ */
+
+.filelinks{
+  color:#5C5C5C;
+  font-size:11px;
+  margin-top:5px;
+  padding:10px 5px 5px 10px;
+}
+
+.filelinks_layout_1 .even,
+.filelinks_layout_1 .odd,
+.filelinks_layout_2 .even,
+.filelinks_layout_2 .odd,
+.filelinks_layout_3 .even,
+.filelinks_layout_3 .odd{
+  margin:0 0 10px 0;
+}
+
+.address_image{
+  /*width: 43px; 
+  height: 100px; */
+  float:left;
+  
+}
+
+.address_data{
+  width: 136px;
+  float:left;
+  margin-top:-3px;
+}
+
+#Content .address_data{
+  width: 100%;
+  float:left;
+  margin-top:-3px;
+}
+
+
+#Content .address_data ,.service_ansprechpartner .address_data{
+  border: 1px solid #EEEEEE;
+  padding: 5px;
+}
+
+
+
+.tx-ttaddress-pi1{
+  padding: 0px 0px 15px 0px;
+  font-size: 11px;
+  color: #5c5c5c;
+}
+
+.vcard{
+  padding: 10px 5px 5px 10px;
+  margin-top: 5px;
+  font-size: 11px;
+  color: #5c5c5c;
+}
+
+
+.vcard .fn{
+  padding: 0px 0px 0px 0px;
+  margin-top: 5px;
+  font-size: 11px;
+  color: #5c5c5c;
+  font-weight: bold;
+}
+
+#Content .vcard .fn {
+  font-size: 13px;
+}
+
+.vcard .tel{
+  background-image:url(../lay/phone.gif);
+  background-repeat: no-repeat;
+  /*margin-left:39px;*/
+  margin-top:5px;
+  padding-left:18px;
+  font-size: 11px;
+  color: #5c5c5c;
+  font-weight: bold;
+  background-position:left 2px;
+}
+
+#Content .vcard .tel{
+  background-position:left 4px;
+}
+
+.vcard .mobil{
+  background-image:url(../lay/mobil.gif);
+  background-repeat: no-repeat;
+  background-position: left center;
+  /*margin-left:39px;*/
+  margin-top:0px;
+  padding-left:18px;
+  font-size: 11px;
+  color: #5c5c5c;
+  font-weight: bold;
+}
+
+.vcard .fax{
+  background-image:url(../lay/fax.gif);
+  background-repeat: no-repeat;
+  background-position: left center;
+  /*margin-left:44px;*/
+  margin-bottom: 3px;
+  padding-left:18px;
+  font-size: 11px;
+  color: #5c5c5c;
+  font-weight: bold;
+}
+
+.vcard .photo{
+  padding: 0px 0px 25px 0px;
+}
+
+.vcard .email{
+  background-image: url(../lay/mail.gif);
+  background-repeat: no-repeat;
+  background-position:0 3px;
+  text-decoration: none;
+  padding: 0px 0px 0px 19px;
+  margin: 0px 0px 0px 0px;
+  color: #084194;
+}
+
+.vcard .email:hover{
+  text-decoration: underline;
+}
+
+.vcard .url{
+  background-image: url(../lay/web.gif);
+  background-repeat: no-repeat !IMPORTANT;
+  text-decoration: none;
+  padding: 0px 0px 0px 20px;
+  margin: 0px 0px 0px 0px;
+  color: #084194;
+  background-position:0 4px;
+}
+
+.vcard .url:hover{
+  text-decoration: underline;
+}
+
+
+/* ------------------ bestands_login ------------------ */
+
+
+#Container3 fieldset{
+  border: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+#Container3 label{
+  display:block;
+  padding:3px 0;
+  width:272px;
+  vertical-align:middle;
+}
+
+#Container3 p{
+  color:#575757;
+  font-family:Trebuchet MS,Arial,Verdana,sans-serif;
+  font-size:11px;
+  text-decoration: none;
+}
+
+#Container3 p a:link, #Container3 p a:active, #Container3 p a:visited{
+  color:#575757;
+  font-family:Trebuchet MS,Arial,Verdana,sans-serif;
+  font-size:11px;
+  font-weight:bold;
+  text-decoration: none;
+}
+
+#Container3 p a:hover{
+  color:#575757;
+  font-family:Trebuchet MS,Arial,Verdana,sans-serif;
+  font-size:11px;
+  font-weight:bold;
+  text-decoration: underline;
+}
+
+
+#Container3 .c-username {
+  color:#575757;
+  font-family:Trebuchet MS,Arial,Verdana,sans-serif;
+  font-size:11px;
+  line-height:normal;
+  height: 15px;
+  padding:8px 0px 0px 0px;
+  margin-bottom:7px;
+}
+
+#Container3 .username {
+  display:block;
+  float:left;
+  margin-right:1em;
+  padding-top:3px;
+  text-align:right;
+  width:64px;
+}
+
+#Container3 .input {
+  display:block;
+  float:left;
+  margin-right: 0px 5px 3px 0px;
+  padding-top:3px;
+  text-align:left;
+  width:140px;
+  /*height:10px;*/
+}
+
+#Container3 .c-password {
+  color:#575757;
+  font-family:Trebuchet MS,Arial,Verdana,sans-serif;
+  font-size:11px;
+  height: 15px;
+  padding:8px 0px 8px 0px;
+}
+#Container3 .password {
+  display:block;
+  float:left;
+  margin-right:1em;
+  padding-top:3px;
+  text-align:right;
+  width:64px;
+}
+
+#Container3 .c-submit {
+  text-align: right;
+  color:#575757;
+  font-family:Trebuchet MS,Arial,Verdana,sans-serif;
+  font-size:11px;
+  height: 15px;
+  padding:8px 19px 0px 0px;
+}
+
+#Container3 .submitter {
+  background-image:url(../lay/login_btn.gif);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-color:none;
+  border: none;
+  height:15px;
+  width:65px;
+}
+
+#Container3 .submit_forgot{
+  background-image:url(../lay/submit_forgot.gif);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-color:none;
+  border: none;
+  margin-top: 5px;
+  height:17px;
+  width:112px;
+}
+
+/*------------------Galerie-----------------------*/
+
+.jdGallery a.carouselBtn{
+  font-weight:bold;
+}
+
+.jdGallery .carousel{
+  background-color:#084194 !important;
+}
+
+/*-----------------Kalender-----------------------*/
+
+#Container_R .rn-mjsevent-calendarview{
+  height:140px;
+  width:176px;
+  margin:5px 0px 5px 8px;
+}
+
+#Container_R .rn-mjsevent-month td, #Container_R .rn-mjsevent-month a, #Container_R .rn-mjsevent-week td, #Container_R .rn-mjsevent-today{
+  background-color:#084194!IMPORTANT;
+}
+
+#Container_R .rn-mjsevent-day-6, #Container_R .rn-mjsevent-day-7{
+  background-color:#A0D3E7;
+}
+
+.rn-mjsevent-eventdate a:link, .rn-mjsevent-eventdate a:active, .rn-mjsevent-eventdate a:visited{
+  color:#084194;
+  font-size:12px;
+  font-style:italic;
+  font-weight:bold;
+  padding:0;
+  text-decoration:none;
+}
+
+.rn-mjsevent-eventdate a:hover{
+  text-decoration:underline;
+}
+
+
+.rn-mjsevent-eventtitle a:link, .rn-mjsevent-eventtitle a:active,
+.rn-mjsevent-eventtitle a:visited{
+  color:#084194;
+  font-size:12px;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+.rn-mjsevent-eventtitle a:hover{
+  text-decoration:underline;
+}
+
+.tx-mjseventpro-pi1-teaserViewField-title {
+  color:#000000;
+  font-family:Verdana,Arial,Helvetica,sans-serif;
+  font-size:11px;
+  text-transform:none;
+}
+
+.tx-mjseventpro-pi1-teaserView-header {
+  background-color:#FFFFFF;
+  border:none !IMPORTANT;
+  color:#222222;
+  font-size:12px;
+  font-weight:700;
+  margin-bottom:10px;
+  padding:10px;
+  text-transform:none;
+}
+
+.tx-mjseventpro-pi1-teaserViewField-bdatetime a:link, .tx-mjseventpro-pi1-teaserViewField-bdatetime a:active,
+.tx-mjseventpro-pi1-teaserViewField-bdatetime a:visited, .tx-mjseventpro-pi1-teaserViewField-bdatetime a:hover{
+  color:#2F2E2E !IMPORTANT;
+  font-size:11px !IMPORTANT;
+  font-weight:bold;
+  padding:0;
+  text-decoration:none;
+}
+
+.tx-mjseventpro-pi1-teaserViewField-teaser a:link, .tx-mjseventpro-pi1-teaserViewField-teaser a:active,
+.tx-mjseventpro-pi1-teaserViewField-teaser a:visited, .tx-mjseventpro-pi1-teaserViewField-teaser a:hover{
+  color:#222222 !IMPORTANT;
+  font-size:12px !IMPORTANT;
+  line-height:16px;
+  font-family: Trebuchet, Arial, Helvetica, sans-serif;
+}
+
+#listViewLink{
+  border: none !IMPORTANT;
+  font-family: Trebuchet,Arial,Helvetica,sans-serif;
+  margin-top:4px;
+  padding:2px;
+}
+
+
+.tx-mjseventpro-pi1-teaserView-events{
+  background-color: #FFFFFF!IMPORTANT; 
+}
+
+/*
+#titleBox{
+background-color:#FFFFFF;
+border:1px solid #EEEEEE;
+clear:right;
+margin-bottom:15px !IMPORTANT;
+margin-left:0;
+padding:8px 10px;
+}
+*/
+
+#descrBox{
+  border: medium none !important;
+  margin-bottom: 10px !important;
+  padding: 0 !important;
+}
+
+#adDataBox {
+  background-color:#FFFFFF;
+  border:1px solid #EEEEEE;
+  clear:right;
+  margin-bottom:15px !IMPORTANT;
+  margin-left:0;
+  padding:8px 10px;
+}
+
+.tx-mjseventpro-pi1-singleViewField-title {
+  color: #084194 !important;
+  font-size: 13px !important;
+  font-weight: bold !important;
+  margin: 10px 0 !important;
+  padding: 0;
+  text-decoration: none;
+}
+
+.tx-mjseventpro-pi1-singleViewField-title p{
+  margin:0;
+}
+
+#posterBox {
+  border: medium none !important;
+  float: right !important;
+  left: 0 !important;
+  margin: 0 0 10px 15px !important;
+  top: 0 !important;
+}
+
+.tx-mjseventpro-pi1-singleViewField-teaser {
+  margin: 15px 0 10px 0!IMPORTANT;
+  color:#084194 !important;
+  font-size:12px !important;
+  line-height:16px;
+  font-weight: bold !IMPORTANT;
+  font-family: Trebuchet, Helvetica, Arial, sans-serif !IMPORTANT;
+  font-style: normal !IMPORTANT;
+}
+
+.event-backlink a:hover{
+  text-decoration: underline !IMPORTANT;
+}
+
+.event-backlink{
+  cursor: pointer;
+}
+
+.event-backlink{
+  background-image:url(../lay/back.gif) !important;
+  background-position:left center !important;
+  background-repeat:no-repeat !important;
+  color:#084194 !important;
+  font-size:12px !important;
+  padding:0 0 0 10px !important;
+  text-decoration:none !important;
+  background-color: none !important;
+}
+
+.tx-mjseventpro-pi1-singleView input,.tx-mjseventpro-pi1-singleView select,.tx-mjseventpro-pi1-singleView textarea {
+  border:none !IMPORTANT;
+  background-color: #FFFFFF !IMPORTANT;
+}
+
+.tx-mjseventpro-pi1-singleViewHeader-bdate, .tx-mjseventpro-pi1-singleViewHeader-entrytime, .tx-mjseventpro-pi1-singleViewHeader-btime, .tx-mjseventpro-pi1-singleViewHeader-edate, .tx-mjseventpro-pi1-singleViewHeader-etime, .tx-mjseventpro-pi1-singleViewHeader-title, .tx-mjseventpro-pi1-singleViewHeader-teaser, .tx-mjseventpro-pi1-singleViewHeader-cat, .tx-mjseventpro-pi1-singleViewHeader-type, .tx-mjseventpro-pi1-singleViewHeader-descr, .tx-mjseventpro-pi1-singleViewHeader-internalrefs, .tx-mjseventpro-pi1-singleViewHeader-location, .tx-mjseventpro-pi1-singleViewHeader-image, .tx-mjseventpro-pi1-singleViewHeader-imgcap, .tx-mjseventpro-pi1-singleViewHeader-files, .tx-mjseventpro-pi1-singleViewHeader-links, .tx-mjseventpro-pi1-singleViewHeader-promoter, .tx-mjseventpro-pi1-singleViewHeader-location, .tx-mjseventpro-pi1-singleViewHeader-area, .tx-mjseventpro-pi1-singleViewHeader-status, .tx-mjseventpro-pi1-singleViewHeader-priority, .tx-mjseventpro-pi1-singleViewHeader-fees, .tx-mjseventpro-pi1-singleViewHeader-ticketlink, .tx-mjseventpro-pi1-singleViewHeader-age, .tx-mjseventpro-pi1-singleViewHeader-edatetime,#authorBox {
+  color: #084194!important;
+  font-size: 12px!important;
+  font-weight: bold!important;
+}
+
+#authorBox{
+  margin-bottom:15px;
+}
+
+.tx-mjseventpro-pi1-singleViewField-bdate, .tx-mjseventpro-pi1-singleViewField-entrytime, .tx-mjseventpro-pi1-singleViewField-btime, .tx-mjseventpro-pi1-singleViewField-edate, .tx-mjseventpro-pi1-singleViewField-etime, .tx-mjseventpro-pi1-singleViewField-cat, .tx-mjseventpro-pi1-singleViewField-type, .tx-mjseventpro-pi1-singleViewField-descr, .tx-mjseventpro-pi1-singleViewField-internalrefs, .tx-mjseventpro-pi1-singleViewField-location, .tx-mjseventpro-pi1-singleViewField-files, .tx-mjseventpro-pi1-singleViewField-links, .tx-mjseventpro-pi1-singleViewField-promoter, .tx-mjseventpro-pi1-singleViewField-location, .tx-mjseventpro-pi1-singleViewField-area, .tx-mjseventpro-pi1-singleViewField-status, .tx-mjseventpro-pi1-singleViewField-priority, .tx-mjseventpro-pi1-singleViewField-fees, .tx-mjseventpro-pi1-singleViewField-ticketlink, .tx-mjseventpro-pi1-singleViewField-age, .tx-mjseventpro-pi1-singleViewField-edatetime {
+  color: #222222!important;
+  font-size: 11px!important;
+  font-weight: normal!important;
+  margin-bottom: 0!important;
+}
+
+.tx-mjseventpro-pi1-singleViewField-promoter p,
+.tx-mjseventpro-pi1-singleViewField-location p{
+  margin:0!important;
+}
+
+/*-----------------Vereinsmasken-----------------------*/
+.tx-vereine-pi1 label {
+  clear:both;
+  float:left;
+  width:120px;
+}
+
+.tx-vereine-pi1 .textfield,.tx-vereine-pi1 .textfieldbig {
+  width:300px;
+  margin-bottom:5px;
+  font-size:12px;
+}
+
+.tx-vereine-pi1 .textfieldbig {
+  height:200px;
+  font-family:Trebuchet MS,Arial,Verdana,sans-serif;
+}
+
+.tx-vereine-pi1 .textfieldbig.smaller {
+  height:100px;
+}
+
+/* Temporäres Ausblenden des Zielgruppen-Selects wg. nicht vorhandener Daten */
+/*div.c-zielgruppe {
+display:none;
+}*/
+
+
+.tx-mjseventpro-pi1-singleView #btime{
+  /*  margin-top:15px; */
+}
+
+
+
+#titleBox, #adDataBox{
+  border: 0px none!IMPORTANT;
+  padding: 0!IMPORTANT;
+  margin:0!important;
+}
+
+.tx-mjseventpro-pi1-singleViewField-descr{
+  border-bottom: 1px solid #EEEEEE;
+  margin: 0 0 10px !important;
+}
+
+.tx-mjseventpro-pi1-singleViewHeader-btime,
+.tx-mjseventpro-pi1-singleViewHeader-bdate,
+.tx-mjseventpro-pi1-singleViewHeader-promoter,
+.tx-mjseventpro-pi1-singleViewHeader-location,
+.tx-mjseventpro-pi1-singleViewHeader-cat{
+  border-top: medium none !important;
+}
+
+.tx-mjseventpro-pi1-listViewField-bdate, .tx-mjseventpro-pi1-listViewField-btime, .tx-mjseventpro-pi1-listViewField-time {
+  float: left;
+  width: 120px;
+}
+
+
+
+
+.optionBox .eventbrowse{
+  font-size: 12px;
+  margin: 8px 0 0 0;
+  text-align: left!IMPORTANT;
+}
+
+.eventbrowse{
+  text-align: center;
+}
+
+.browse-active{
+  font-weight: bold;
+}
+
+.rn-mjsevent-event{
+  border: 1px dashed #666;
+}
+
+a.nextprevlink:link, a.nextprevlink:visited, a.nextprevlink:active{
+  font-size: 10px;
+  font-weight: normal;
+  display: block;
+}
+
+a.nextprevlink:hover, td.rn-mjsevent-event:hover{
+  background-color: #333!IMPORTANT;
+  color: #FFF;
+  text-decoration: none;
+}
+
+.rn-mjsevent-today a.nextprevlink:link,.rn-mjsevent-today a.nextprevlink:visited,.rn-mjsevent-today a.nextprevlink:active{
+  color: #FFF!IMPORTANT;
+  background-color:#084194!IMPORTANT;
+}
+
+.tx-srnews-pi1-complist-item{
+  padding: 4px 0px 4px 5px;
+}
+
+.tx-srnews-pi1-complist .even{
+  background-color: #E6E6E6;
+}
+
+.tx-srnews-pi1-complist .odd{
+  background-color: #EFEFEF;
+}
+
+.tx-srnews-pi1-complist a.srlink:link, .tx-srnews-pi1-complist a.srlink:visited, .tx-srnews-pi1-complist a.srlink:active{
+  display: block;
+  padding: 0 0 0 25px;
+  font-weight: bold;
+  font-size: 12px;
+  background-image:  url(../lay/srlink.gif);
+  background-repeat: no-repeat;
+  background-position: 0px 5px;
+}
+
+.tx-srnews-pi1-complist a.srlink:hover{
+  
+}
+
+/* ------------------ Sitemap ------------------ */
+
+#Container_R .csc-menu-4 a {
+  margin-left: 9px;
+}
+
+#Container_R .csc-menu-4 dt {
+  margin-bottom: 5px;
+}
+
+
+/* ----------------- Newsletter Subscription ----------------- */
+
+.csc-mailform-field label {
+  display: inline-block;
+  width: 150px;
+}
+
+.csc-mailform-field {
+  margin-bottom: 4px;
+}
+

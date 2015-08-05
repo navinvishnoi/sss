@@ -1,0 +1,644 @@
+#seminar-single h3{
+font-size:12px;
+}
+
+#seminar-single ul{
+margin:15px 15px 15px 0;
+padding:0px;
+}
+
+#seminar-single tr{
+margin:0px;
+padding:0px;
+}
+
+#seminar-single table tr{
+margin:10px;
+}
+
+#seminar-single tr.odd{
+background-color:#EFEFEF;
+}
+
+#seminar-single tr.even{
+background-color:#E6E6E6;
+}
+
+#seminar-single tr td{
+margin:0px;
+padding:0 0 0 10px;
+font-size:11px;
+}
+
+#tx-seminars-pi1-registration-form{
+	font-size:12px;
+}
+
+.tx-seminars-pi1-listrow .tx-seminars-pi1-vacancies-available{
+	padding-right:23px;
+	text-align:right;
+} 
+
+.tx-seminars-pi1 .tx-seminars-pi1-registration{
+	color:#084194;
+	font-size:11px;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+input, select, textarea{
+	border:1px solid #BBBBBB;
+}
+
+
+input[type=submit]{
+	border:1px solid #BBBBBB;
+	background-color: #e5e3e4;
+	color:#6d6d6d;
+}
+
+
+.submitbtn{
+	border:none;
+}
+
+.tx-seminars-pi1-browsebox, 
+.tx-seminars-pi1-browsebox table{
+	width:700px;
+	text-align:center;
+}
+
+.tx-seminars-pi1-browsebox-SCell a{
+	margin:3px;
+}
+
+.tx-seminars-pi1-clear {
+	clear: both;
+	width: 1px;
+	height: 1px;
+}
+
+.tx-seminars-pi1-event-editor textarea {
+	width: 30em;
+	height: 15em;
+}
+.tx-seminars-pi1-event-editor .attached-files span {
+	clear: both;
+}
+.tx-seminars-pi1-event-editor ul.attached-files {
+	list-style: none;
+	padding: 12px 0 0 0;
+}
+.tx-seminars-pi1-event-editor .attached-files li {
+	line-height: 1.8em;
+	position: relative;
+}
+.tx-seminars-pi1-event-editor .attached-files input {
+	position: absolute;
+	right: 0;
+}
+.tx-seminars-pi1-event-editor .deleted {
+	text-decoration: line-through;
+	color: grey;
+}
+
+.tx-seminars-pi1-error {
+	color: #f00;
+	background-color: inherit;
+	font-weight: bold;
+}
+
+.tx-seminars-pi1-hidden {
+	display: none;
+	visibility: hidden;
+}
+
+.tx-seminars-pi1-listrow table {
+	background-color: #fff;
+	color: #000;
+	width:700px;
+	font-size:11px;
+}
+
+.tx-seminars-pi1-listrow th,
+.tx-seminars-pi1-listrow td {
+	margin: 0;
+	border-spacing: 0;
+}
+
+.tx-seminars-pi1-listrow td {
+	padding: .2em .5em;
+	text-align:left;
+}
+
+.tx-seminars-pi1-listrow th {
+	font-weight: bold;
+	text-align: left;
+}
+
+.tx-seminars-pi1-listrow th a {
+	display: block;
+	padding: .2em .5em;
+}
+
+.tx-seminars-pi1-listrow img.category_image {
+	margin: 0 2px;
+	border: none;
+}
+
+th.tx-seminars-pi1-seats,
+th.tx-seminars-pi1-total-price,
+th.tx-seminars-pi1-registration,
+th.tx-seminars-pi1-list-registrations {
+	padding: .2em .5em;
+}
+
+th.tx-seminars-pi1-title {
+	text-align: left;
+}
+
+.tx-seminars-pi1-title a {
+	display: block;
+}
+
+.tx-seminars-pi1-date,
+.tx-seminars-pi1-vacancies,
+.tx-seminars-pi1-price,
+.tx-seminars-pi1-uid {
+	text-align: right;
+}
+
+.tx-seminars-pi1-date {
+	white-space: nowrap;
+}
+
+.tx-seminars-pi1-seats {
+	text-align: center;
+}
+
+.tx-seminars-pi1-listrow .listrow-odd,
+.tx-seminars-pi1-listrow th {
+	background-color: #f0f0f0;
+	color: inherit;
+}
+
+.tx-seminars-pi1-listrow tr {
+	background-color: #fff;
+	color: inherit;
+}
+
+.tx-seminars-pi1-listrow tr:hover {
+	background-color: #e0e0e0;
+	color: inherit;
+}
+
+/* ueberschriben wegen rot-gruen Schwaeche*/
+.tx-seminars-pi1-vacancies-available .tx-seminars-pi1-square {
+	background-color: #00a500;
+	color: inherit;
+}
+
+.tx-seminars-pi1-vacancies-available .tx-seminars-pi1-square {
+    background-color: transparent;
+    background-image: url("../../seminare/img/free.png");
+    color: inherit;
+    background-repeat:no-repeat;
+    background-position: 0 0;
+}
+
+.tx-seminars-pi1-vacancies-2 .tx-seminars-pi1-square,
+.tx-seminars-pi1-vacancies-1 .tx-seminars-pi1-square {
+	background-color: #ffff3c;
+	color: inherit;
+}
+
+/* ueberschriben wegen rot-gruen Schwaeche*/
+.tx-seminars-pi1-vacancies-0 .tx-seminars-pi1-square,
+.tx-seminars-pi1-canceled .tx-seminars-pi1-square,
+.tx-seminars-pi1-registration-deadline-over .tx-seminars-pi1-square {
+	background-color: #c30000;
+	color: inherit;
+}
+
+.tx-seminars-pi1-vacancies-0 .tx-seminars-pi1-square,
+.tx-seminars-pi1-canceled .tx-seminars-pi1-square,
+.tx-seminars-pi1-registration-deadline-over .tx-seminars-pi1-square {
+    background-color: transparent;
+    background-image: url("../../seminare/img/closed.png");
+    color: inherit;
+        background-repeat:no-repeat;
+        background-position: 0 0;
+}
+
+.tx-seminars-pi1-canceled td {
+	text-decoration: line-through;
+}
+
+.tx-seminars-pi1-canceled td.tx-seminars-pi1-vacancies {
+	text-decoration: none;
+}
+
+div.tx-seminars-pi1-selectorwidget {
+	/*border: 1px solid #ccc;*/
+	width:700px;
+	margin-bottom:25px;
+}
+
+.tx-seminars-pi1-selectorwidget p {
+	clear: left;
+}
+
+.tx-seminars-pi1-selectorwidget .tx-seminars-pi1-optionbox {
+	float: left;
+	padding-bottom: .5em;
+	margin-bottom:15px;
+}
+
+.tx-seminars-pi1-selectorwidget .tx-seminars-pi1-optionbox select {
+	width: 100%;
+}
+
+#tx-seminars-pi1-optionbox-1, #tx-seminars-pi1-optionbox-2,
+#tx-seminars-pi1-optionbox-3, #tx-seminars-pi1-optionbox-4,
+#tx-seminars-pi1-optionbox-5 {
+	width: 20%;
+}
+
+table.tx-seminars-pi1-timeslots {
+	background-color: #fff;
+	color: #000;
+	border: 1px solid #000;
+}
+
+table.tx-seminars-pi1-timeslots th {
+	background-color: #f0f0f0;
+	color: inherit;
+	text-align: left;
+	padding: 5px;
+}
+
+table.tx-seminars-pi1-timeslots td {
+	padding: 5px;
+}
+
+#tx_seminars_pi1_owner_image {
+	float: right;
+	border: 1px solid #000;
+}
+
+#tx-seminars-pi1-registration-form fieldset {
+	margin: 0 0 1em;
+}
+
+#tx-seminars-pi1-registration-form dl {
+	margin: 0;
+}
+
+#tx-seminars-pi1-registration-form dt {
+	width: 11em;
+	margin: 0 .5em .5em 0;
+	clear: both;
+	float: left;
+}
+
+#tx-seminars-pi1-registration-form dd {
+	margin: 0 0 .5em 12em;
+}
+
+#tx-seminars-pi1-registration-form dd select,
+#tx-seminars-pi1-registration-form .tx-seminars-pi1-registration-zip {
+	margin: 0 .5em 0 0;
+}
+
+#tx-seminars-pi1-registration-payment {
+	position: relative;
+	height: 8em;
+}
+
+#tx-seminars-pi1-registration-form .tx-seminars-pi1-registration-method-of-payment dd {
+	margin-right: 25em;
+}
+
+#tx-seminars-pi1-registration-banking-data {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 24.5em;
+	margin: 0;
+	padding: 0;
+}
+
+#tx-seminars-pi1-registration-form input,
+#tx-seminars-pi1-registration-form textarea,
+#tx-seminars-pi1-registration-form
+	.tx-seminars-pi1-registration-country select {
+	width: 20em;
+}
+
+#tx-seminars-pi1-registration-form textarea {
+	height: 6em;
+}
+
+#tx-seminars-pi1-registration-form #tx-seminars-pi1-registration-banking-data input {
+	width: 14em;
+}
+
+#tx-seminars-pi1-registration-form
+	.tx-seminars-pi1-checkbox input {
+	width: auto;
+}
+
+#tx-seminars-pi1-registration-form .tx-seminars-pi1-registration-gender select {
+	width: 5em;
+}
+
+#tx-seminars-pi1-registration-form .tx-seminars-pi1-registration-name input {
+	width: 14em;
+}
+
+#tx-seminars-pi1-registration-form .tx-seminars-pi1-registration-zip input {
+	width: 4em;
+}
+
+#tx-seminars-pi1-registration-form .tx-seminars-pi1-registration-city input {
+	width: 14em;
+}
+
+#tx-seminars-pi1-registration-form .tx-seminars-pi1-submit {
+	margin: .5em 0;
+	float: right;
+}
+
+#tx-seminars-pi1-registration-form .tx-seminars-pi1-submit input {
+	width: auto;
+}
+
+#tx-seminars-pi1-unregistration-form .tx-seminars-pi1-submit {
+	margin: .5em 0;
+}
+
+.dd{
+	margin:0px;
+	padding: 0px;
+}
+
+.seminar_backlink{
+	background-image:url(../lay/seminar_backlink.gif);
+	background-repeat:no-repeat;
+	background-position:left;
+	padding-left: 16px;
+}
+
+.tx-felogin-pi1 fieldset {
+border:0 groove threedface;
+display:block;
+margin-left:2px;
+margin-right:2px;
+padding:0.35em 0.625em 0.75em;
+}
+
+
+.tx-felogin-pi1 label{
+	display: inline;
+}
+
+.tx-felogin-pi1 .c-username{
+	padding: 5px 0px 5px 0px;
+}
+
+.tx-felogin-pi1 .c-password{
+	padding: 5px 0px 5px 0px;
+}
+
+.tx-felogin-pi1 .c-submit{
+	padding: 5px 0px 5px 60px;
+}
+
+a.internal-link:link, a.internal-link:active, a.internal-link:visited{
+	font-family: Trebuchet MS, Arial, Verdana, sans-serif;
+	color: #084194;
+	font-size:12px;
+	text-decoration:none;
+	background-image:url(../lay/InternaLink.gif);
+	background-repeat:no-repeat;
+	background-position:center left;
+	padding: 0px 0px 0px 12px;
+}
+
+a.external-link:link, a.external-link:visited, a.external-link:active{
+	font-family: Trebuchet MS, Arial, Verdana, sans-serif;
+	color: #084194;
+	font-size:12px;
+	text-decoration:none;
+	background-image:url(../lay/ExternaLink.gif);
+	background-repeat:no-repeat;
+	background-position:center left;
+	padding: 0px 0px 0px 12px;
+}
+
+a.mail:link, a.mail:link, a.mail:visited{
+	font-family: Trebuchet MS, Arial, Verdana, sans-serif;
+	color: #084194;
+	font-size:12px;
+	text-decoration:none;
+	background-image:url(../lay/mail.gif);
+	background-repeat:no-repeat;
+	background-position:center left;
+	padding: 0px 0px 0px 20px;
+}
+
+a.mail:hover, a.download:hover, a.internal-link:hover, a.external-link:hover{
+	text-decoration:underline;
+}
+
+.contenttable td {
+	padding: 3px;
+	margin: 0px;
+}
+
+TABLE.contenttable{
+	margin: 0px;
+	padding: 0px;
+	font-family: Trebuchet MS, Arial, Verdana, sans-serif;
+	width: 99%;
+	vertical-align: text-top;
+	font-size: 12px;
+}
+
+.TabelleHell {
+	background-color: #F6F6F6;
+}
+
+.TabelleMittel{
+	background-color: #E2E2E2;
+}
+
+.TabelleDunkel {
+	background-color: #CACACA;
+	font-weight: bold;
+}
+
+TD P{
+	font-size: 12px;
+	padding: 0px;
+	margin: 0px;
+}
+
+div.csc-textpic-intext-left div.csc-textpic-imagewrap {
+	float:left;
+	padding: 0px;
+	margin: 0px;
+}
+
+div.csc-textpic-intext-left div.csc-textpic-imagewrap, div.csc-textpic-intext-left-nowrap div.csc-textpic-imagewrap {
+	margin-right:10px !important;
+	padding-top: 5px;
+}
+
+div.csc-textpic-imagewrap {
+	padding: 0px;
+	margin: 0px;
+}
+
+
+/* ------------------ powermail ------------------ */
+fieldset.tx-powermail-pi1_fieldset label{
+	width:120px;
+	margin-right:10px; }
+
+div.powermail_mandatory_js{ margin: 3px 0 15px 120px; }
+
+fieldset.tx-powermail-pi1_fieldset input.powermail_submit {
+	margin:20px 0 10px 129px;
+	font-weight:normal;
+	background-image:url(../lay/senden_btn.gif);
+	background-repeat: no-repeat;
+	background-position: left; 
+	padding:0 6px 0 0;
+	}
+	
+div.countryzone { margin:10px 0 0 120px; }
+
+fieldset.tx-powermail-pi1_fieldset input.powermail_text,
+fieldset.tx-powermail-pi1_fieldset textarea.powermail_textarea,
+fieldset.tx-powermail-pi1_fieldset select.powermail_select {
+  width:200px;
+}
+
+span.powermail_mandatory {
+  color: maroon;
+  font-weight: bold;
+}
+
+input.validation-failed, textarea.validation-failed {
+/*  background-color: maroon; */
+  border: 1px solid maroon;
+}
+
+div.powermail_mandatory_js {
+  color: maroon;
+  font-weight: bold;
+  clear: both;
+}
+
+fieldset.tx-powermail-pi1_fieldset {
+  border:0px none;
+  padding:0px;
+  margin:0 0 -10px;
+}
+
+fieldset.tx-powermail-pi1_fieldset legend {
+  display: none;
+}
+
+fieldset.tx-powermail-pi1_fieldset label {
+  clear:both;
+  display:block;
+  float:left;
+  font-weight:bold;
+}
+
+fieldset.tx-powermail-pi1_fieldset div.tx_powermail_pi1_fieldwrap_html_radio input.powermail_radio {
+  margin:5px 0;
+}
+
+div.tx_powermail_pi1_fieldwrap_html {
+  margin:10px 0;
+}
+
+p.tx_powermail_pi1_fieldwrap_html_checkbox_title, p.tx_powermail_pi1_fieldwrap_html_radio_title {
+  font-weight:bold;
+  margin:0;
+  padding:0;
+}
+
+td.powermail_all_td {
+  padding:3px 10px 3px 0;
+}
+
+.tx-powermail-pi1_fieldset{
+	font-size: 11px;
+	color: #084194;
+}
+
+.tx-powermail-pi1_fieldset input{
+	font-size: 11px;
+	color: #084194;
+}
+
+#powermaildiv_uid13{
+	margin-left: 130px;
+}
+
+.tx-mjseventpro-pi1-teaserView-header {
+	background-color:#FFFFFF;
+	border:none;
+	color:#222222;
+	font-size:12px;
+	font-weight:700;
+	margin-bottom:10px;
+	padding:10px;
+	text-transform:uppercase;
+}
+
+.tx-mjseventpro-pi1-teaserView-events{
+	border:0px solid #FFF;
+	color:#333333;
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-size:9px;
+	margin:4px;
+	padding:2px;
+}
+
+.tx-mjseventpro-pi1-teaserView-listlink {
+	border: 0px solid #FFF;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	margin-top: 4px;
+	padding: 2px;
+}
+
+/* ------------------ indexed_search ------------------ */
+
+.tx-indexedsearch ul.browsebox{
+	list-style-type: none;
+	margin: 0px 0px 10px 0px!IMPORTANT;
+	padding: 0px!IMPORTANT;
+}
+
+.tx-indexedsearch ul.browsebox li{
+	display: inline;
+	padding: 0px 5px 0px 0px;
+}
+
+
+.dd {
+-moz-margin-start:0px;
+padding: 0px;
+margin: 0px;
+display:block;
+}
+
+
+#fortbildungintern .CNav_EckenO,#fortbildungintern .CNav_EckenU ,#fortbildungintern ul{
+display:none;
+}

@@ -1,0 +1,207 @@
+/* default styles for extension "tx_mjseventpro_pi1" */
+.tx-mjseventpro-pi1 H2 { margin-top: 0px; margin-bottom: 0px; }  .table-list    { background-color: #fff } .td-list    { background-color: #eee } .td-listalt   { background-color: #ff9 }  .table-single     { } .td-single     { } .tx-mjseventpro-pi1-singleView-Infobox  { background-color: #f5f5f5; border: dashed 1px #999 } .tx-mjseventpro-pi1-singleView-DescrBox  { padding: 2px 20px }  .tx-mjseventpro-pi1-browsebox  { color: #333; font-size: 11px; font-family: Verdana, Arial, Helvetica, sans-serif; background-color: #ffc }  .tx-mjseventpro-pi1-listrowField-title  { color: #333; font-size: 12px; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: normal; text-transform: uppercase } .tx-mjseventpro-pi1-listrowField-teaser { color: #333; font-size: 11px; font-family: Verdana, Arial, Helvetica, sans-serif } .tx-mjseventpro-pi1-listrowField-bdate { color: #333; font-size: 11px; font-family: Verdana, Arial, Helvetica, sans-serif } .tx-mjseventpro-pi1-listrowField-entrytime { color: #333; font-size: 11px; font-family: Verdana, Arial, Helvetica, sans-serif } .tx-mjseventpro-pi1-listrowField-time { color: #333; font-size: 11px; font-family: Verdana, Arial, Helvetica, sans-serif } .tx-mjseventpro-pi1-listrowField-location { color: #333; font-size: 11px; font-family: Verdana, Arial, Helvetica, sans-serif } .tx-mjseventpro-pi1-listrowField-ticketlink  { color: #333; font-size: 11px; font-family: Verdana, Arial, Helvetica, sans-serif }   .tx-mjseventpro-pi1-teaserView-events    { color: #333; font-size: 9px; font-family: Verdana, Arial, Helvetica, sans-serif; margin: 4px; padding: 2px; border: solid 1px #c60 } .tx-mjseventpro-pi1-teaserView-event   { color: #333; font-size: 9px; font-family: Verdana, Arial, Helvetica, sans-serif; margin-top: 4px; margin-bottom: 2px; padding-bottom: 2px; border-bottom: 1px dashed #ccc } .tx-mjseventpro-pi1-teaserView-header { color: #666; font-weight: bolder; font-family: Verdana, Arial, Helvetica, sans-serif; text-transform: uppercase; margin-bottom: 4px } .tx-mjseventpro-pi1-teaserView-listlink {font-family: Verdana, Arial, Helvetica, sans-serif;  margin-top: 4px; padding: 2px; border: solid 1px #f93 } .tx-mjseventpro-pi1-teaserViewField-title  { color: #000; font-size: 11px; font-family: Verdana, Arial, Helvetica, sans-serif; text-transform: uppercase } .tx-mjseventpro-pi1-teaserViewField-datetime  { color: #333; font-size: 10px; font-family: Verdana, Arial, Helvetica, sans-serif } .tx-mjseventpro-pi1-teaserViewField-image   { color: #333; font-size: 9px; font-family: Verdana, Arial, Helvetica, sans-serif; margin-right: 10px; width: 60px; float: right }   .tx-mjseventpro-pi1-singleView-back   { color: #333; font-size: 11px; font-family: Verdana, Arial, Helvetica, sans-serif; text-align: center; margin: 30px 20px 4px; padding: 1px 2px 3px; border: solid 1px #ccc }  .tx-mjseventpro-pi1-singleViewField-bdate   { color: #333; font-size: 11px; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: 700; margin-bottom: 10px } .tx-mjseventpro-pi1-singleViewField-entrytime { color: #333; font-size: 11px; font-family: Verdana, Arial, Helvetica, sans-serif } .tx-mjseventpro-pi1-singleViewField-btime { color: #333; font-size: 11px; font-family: Verdana, Arial, Helvetica, sans-serif } .tx-mjseventpro-pi1-singleViewField-edate { color: #333; font-size: 11px; font-family: Verdana, Arial, Helvetica, sans-serif } .tx-mjseventpro-pi1-singleViewField-etime { color: #333; font-size: 11px; font-family: Verdana, Arial, Helvetica, sans-serif } .tx-mjseventpro-pi1-singleViewField-title     { color: #333; font-size: 18px; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: 700; margin-top: 14px; margin-bottom: 20px } .tx-mjseventpro-pi1-singleViewField-teaser    { color: #333; font-size: 11px; font-family: Verdana, Arial, Helvetica, sans-serif; font-style: italic; margin-bottom: 10px } .tx-mjseventpro-pi1-singleViewField-cat    { color: #999; font-size: 12px; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: 700; margin-right: 16px } .tx-mjseventpro-pi1-singleViewField-type    { color: #999; font-size: 12px; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: 700; margin-right: 16px } .tx-mjseventpro-pi1-singleViewField-descr  { color: #333; font-size: 11px; font-family: Verdana, Arial, Helvetica, sans-serif } .tx-mjseventpro-pi1-singleViewField-internalrefs { color: #333; font-size: 11px; font-family: Verdana, Arial, Helvetica, sans-serif } .tx-mjseventpro-pi1-singleViewField-location { color: #333; font-size: 11px; font-family: Verdana, Arial, Helvetica, sans-serif } .tx-mjseventpro-pi1-singleViewField-image { color: #333; font-size: 11px; font-family: Verdana, Arial, Helvetica, sans-serif } .tx-mjseventpro-pi1-singleViewField-imgcap  { color: #999; font-size: 9px; font-family: Verdana, Arial, Helvetica, sans-serif } .tx-mjseventpro-pi1-singleViewField-files { color: #333; font-size: 11px; font-family: Verdana, Arial, Helvetica, sans-serif } .tx-mjseventpro-pi1-singleViewField-links { color: #333; font-size: 11px; font-family: Verdana, Arial, Helvetica, sans-serif } .tx-mjseventpro-pi1-singleViewField-promoter { color: #333; font-size: 11px; font-family: Verdana, Arial, Helvetica, sans-serif } .tx-mjseventpro-pi1-singleViewField-location { color: #333; font-size: 11px; font-family: Verdana, Arial, Helvetica, sans-serif } .tx-mjseventpro-pi1-singleViewField-area { color: #333; font-size: 11px; font-family: Verdana, Arial, Helvetica, sans-serif } .tx-mjseventpro-pi1-singleViewField-status { color: #333; font-size: 11px; font-family: Verdana, Arial, Helvetica, sans-serif } .tx-mjseventpro-pi1-singleViewField-priority { color: #333; font-size: 11px; font-family: Verdana, Arial, Helvetica, sans-serif } .tx-mjseventpro-pi1-singleViewField-fees { color: #333; font-size: 11px; font-family: Verdana, Arial, Helvetica, sans-serif } .tx-mjseventpro-pi1-singleViewField-ticketlink  { color: #333; font-size: 11px; font-family: Verdana, Arial, Helvetica, sans-serif; margin-top: 10px; margin-bottom: 10px; padding-top: 10px; padding-bottom: 10px } .tx-mjseventpro-pi1-singleViewField-age { color: #333; font-size: 11px; font-family: Verdana, Arial, Helvetica, sans-serif }
+/* default styles for extension "tx_felogin_pi1" */
+	.tx-felogin-pi1 label {
+		display: block;
+	}
+/* default styles for extension "tx_srfeuserregister_pi1" */
+		.tx-srfeuserregister-pi1 p { margin-top: .5em; margin-bottom: 0; padding: 0 .3em; text-indent: 0; }
+		.tx-srfeuserregister-pi1 h4 { margin-top: 0; padding-left: .3em; }
+		.tx-srfeuserregister-pi1 legend { padding: 0 .5em; font-weight: bold; }
+		.tx-srfeuserregister-pi1 .tx-srfeuserregister-pi1-notice { font-style: italic; margin-bottom: 1em; }
+		.tx-srfeuserregister-pi1 .tx-srfeuserregister-pi1-trash { margin-bottom: 2em; }
+		.tx-srfeuserregister-pi1 a { padding-left: 14px; background-image: url("../typo3conf/ext/sr_feuser_register/pi1/internal_link.gif"); background-repeat: no-repeat; background-position: 0% 60%; text-decoration:none; }
+		.tx-srfeuserregister-pi1 label { margin: 0; padding: 0; }
+		.tx-srfeuserregister-pi1 label span { color: #ff0000; }
+		.tx-srfeuserregister-pi1 .tx-srfeuserregister-pi1-error { color: #ff0000; }
+		.tx-srfeuserregister-pi1 input { margin: 0; padding: 0 .5em 0 0; }
+		.tx-srfeuserregister-pi1 input[type=password] { margin-right: 1em; }
+		* html .tx-srfeuserregister-pi1 input.tx-srfeuserregister-pi1-password { margin-right: 1em; }
+		.tx-srfeuserregister-pi1 input[type=radio], .tx-srfeuserregister-pi1 input[type=checkbox] { background-color: transparent; }
+		* html .tx-srfeuserregister-pi1 input.tx-srfeuserregister-pi1-radio, * html .tx-srfeuserregister-pi1 input.tx-srfeuserregister-pi1-checkbox { background-color: transparent; }
+		.tx-srfeuserregister-pi1 .tx-srfeuserregister-pi1-delete-icon { margin-left: 1em; background-color: transparent; }
+		.tx-srfeuserregister-pi1 .tx-srfeuserregister-pi1-delete-icon:hover { cursor: pointer; }
+		.tx-srfeuserregister-pi1 a.tx-srfeuserregister-pi1-file-view { padding-left: 15px; background-image: url("../typo3conf/ext/sr_feuser_register/pi1/internal_link_new_window.gif"); background-color: transparent; background-repeat: no-repeat; font-size: .8em; margin-left: 1em; }
+		.tx-srfeuserregister-pi1 ul { margin: 0; padding: 0; list-style-position: inside; }
+		.tx-srfeuserregister-pi1 ul.tx-srfeuserregister-multiple-checkboxes { list-style-type: none; }
+		.tx-srfeuserregister-pi1 ul.tx-srfeuserregister-multiple-checkboxes li { margin: 0 0 .3em 0; padding: 0; }
+		.tx-srfeuserregister-pi1 ul.tx-srfeuserregister-multiple-checkboxes li label { margin: 0; padding: 0 0 0 .5em; }
+		.tx-srfeuserregister-pi1 ul.tx-srfeuserregister-multiple-checked-values li { float: left; padding: 0 2em 0 0; margin: 0; }
+		.tx-srfeuserregister-pi1 dl { margin: 0; padding: 1em 0 0 0; }
+		.tx-srfeuserregister-pi1 dt, .tx-srfeuserregister-pi1 dd { margin: 0; padding: 0 0 .5em 0; float: left; }
+		.tx-srfeuserregister-pi1 dt { clear: both; width: 25%; text-align: right; padding-right: 1em; }
+		.tx-srfeuserregister-pi1 dd { text-align: left; width: 50%; }
+		.tx-srfeuserregister-pi1 .tx-srfeuserregister-pi1-multiple-checkboxes dt { width: auto; padding-right: 0; }
+		.tx-srfeuserregister-pi1 .tx-srfeuserregister-pi1-multiple-checkboxes dd { width: auto; }
+		* html .tx-srfeuserregister-pi1 dd { float: none; }
+		.tx-srfeuserregister-pi1 dd p { margin-top: 0; margin-bottom: .5em; padding: 0; }
+		.tx-srfeuserregister-pi1 dd label { padding: 0 1em 0 .5em; }
+/* default styles for extension "tx_geosearch_pi1" */
+  .tx-geosearch-pi1-form { margin-bottom:10px; }
+  .tx-geosearch-pi1-label { width:80px; float:left; }
+  .tx-geosearch-pi1-field { margin-bottom:5px; }
+  .tx-geosearch-pi1-button { margin-left:80px; }
+  .tx-geosearch-pi1-found { margin-bottom:10px; font-weight:bold; }
+  .tx-geosearch-pi1-show { margin-bottom:20px; }
+  .tx-geosearch-pi1-content { margin-bottom:10px; }
+  .tx-geosearch-pi1-distance { width:70px; float:left; }
+  .tx-geosearch-pi1-distance_address { margin-left:70px; }
+  .tx-geosearch-pi1-prev { width:70px; float:left; margin-bottom:10px; font-weight:bold; }
+  .tx-geosearch-pi1-next { width:70px; margin-left:70px; margin-bottom:10px; font-weight:bold;}
+/* default styles for extension "tx_cssstyledcontent" */
+	/* Captions */
+	DIV.csc-textpic-caption-c .csc-textpic-caption { text-align: center; }
+	DIV.csc-textpic-caption-r .csc-textpic-caption { text-align: right; }
+	DIV.csc-textpic-caption-l .csc-textpic-caption { text-align: left; }
+
+	/* Needed for noRows setting */
+	DIV.csc-textpic DIV.csc-textpic-imagecolumn { float: left; display: inline; }
+
+	/* Border just around the image */
+	DIV.csc-textpic-border DIV.csc-textpic-imagewrap .csc-textpic-image IMG, DIV.csc-textpic-border DIV.csc-textpic-single-image IMG {
+		border: 2px solid black;
+		padding: 0px 0px;
+	}
+
+	DIV.csc-textpic-imagewrap { padding: 0; }
+
+	DIV.csc-textpic IMG { border: none; }
+
+	/* DIV: This will place the images side by side */
+	DIV.csc-textpic DIV.csc-textpic-imagewrap DIV.csc-textpic-image { float: left; }
+
+	/* UL: This will place the images side by side */
+	DIV.csc-textpic DIV.csc-textpic-imagewrap UL { list-style: none; margin: 0; padding: 0; }
+	DIV.csc-textpic DIV.csc-textpic-imagewrap UL LI { float: left; margin: 0; padding: 0; }
+
+	/* DL: This will place the images side by side */
+	DIV.csc-textpic DIV.csc-textpic-imagewrap DL.csc-textpic-image { float: left; }
+	DIV.csc-textpic DIV.csc-textpic-imagewrap DL.csc-textpic-image DT { float: none; }
+	DIV.csc-textpic DIV.csc-textpic-imagewrap DL.csc-textpic-image DD { float: none; }
+	DIV.csc-textpic DIV.csc-textpic-imagewrap DL.csc-textpic-image DD IMG { border: none; } /* FE-Editing Icons */
+	DL.csc-textpic-image { margin: 0; }
+	DL.csc-textpic-image DT { margin: 0; display: inline; }
+	DL.csc-textpic-image DD { margin: 0; }
+
+	/* Clearer */
+	DIV.csc-textpic-clear { clear: both; }
+
+	/* Margins around images: */
+
+	/* Pictures on left, add margin on right */
+	DIV.csc-textpic-left DIV.csc-textpic-imagewrap .csc-textpic-image,
+	DIV.csc-textpic-intext-left-nowrap DIV.csc-textpic-imagewrap .csc-textpic-image,
+	DIV.csc-textpic-intext-left DIV.csc-textpic-imagewrap .csc-textpic-image {
+		display: inline; /* IE fix for double-margin bug */
+		margin-right: 10px;
+	}
+
+	/* Pictures on right, add margin on left */
+	DIV.csc-textpic-right DIV.csc-textpic-imagewrap .csc-textpic-image,
+	DIV.csc-textpic-intext-right-nowrap DIV.csc-textpic-imagewrap .csc-textpic-image,
+	DIV.csc-textpic-intext-right DIV.csc-textpic-imagewrap .csc-textpic-image {
+		display: inline; /* IE fix for double-margin bug */
+		margin-left: 10px;
+	}
+
+	/* Pictures centered, add margin on left */
+	DIV.csc-textpic-center DIV.csc-textpic-imagewrap .csc-textpic-image {
+		display: inline; /* IE fix for double-margin bug */
+		margin-left: 10px;
+	}
+	DIV.csc-textpic DIV.csc-textpic-imagewrap .csc-textpic-image .csc-textpic-caption { margin: 0; }
+	DIV.csc-textpic DIV.csc-textpic-imagewrap .csc-textpic-image IMG { margin: 0; vertical-align:bottom; }
+
+	/* Space below each image (also in-between rows) */
+	DIV.csc-textpic DIV.csc-textpic-imagewrap .csc-textpic-image { margin-bottom: 10px; }
+	DIV.csc-textpic-equalheight DIV.csc-textpic-imagerow { margin-bottom: 10px; display: block; }
+	DIV.csc-textpic DIV.csc-textpic-imagerow { clear: both; }
+	DIV.csc-textpic DIV.csc-textpic-single-image IMG { margin-bottom: 10px; }
+
+	/* IE7 hack for margin between image rows */
+	*+html DIV.csc-textpic DIV.csc-textpic-imagerow .csc-textpic-image { margin-bottom: 0; }
+	*+html DIV.csc-textpic DIV.csc-textpic-imagerow { margin-bottom: 10px; }
+
+	/* No margins around the whole image-block */
+	DIV.csc-textpic DIV.csc-textpic-imagewrap .csc-textpic-firstcol { margin-left: 0px !important; }
+	DIV.csc-textpic DIV.csc-textpic-imagewrap .csc-textpic-lastcol { margin-right: 0px !important; }
+
+	/* Add margin from image-block to text (in case of "Text w/ images") */
+	DIV.csc-textpic-intext-left DIV.csc-textpic-imagewrap,
+	DIV.csc-textpic-intext-left-nowrap DIV.csc-textpic-imagewrap {
+		margin-right: 10px !important;
+	}
+	DIV.csc-textpic-intext-right DIV.csc-textpic-imagewrap,
+	DIV.csc-textpic-intext-right-nowrap DIV.csc-textpic-imagewrap {
+		margin-left: 10px !important;
+	}
+
+	/* Positioning of images: */
+
+	/* Above */
+	DIV.csc-textpic-above DIV.csc-textpic-text { clear: both; }
+
+	/* Center (above or below) */
+	DIV.csc-textpic-center { text-align: center; /* IE-hack */ }
+	DIV.csc-textpic-center DIV.csc-textpic-imagewrap { margin: 0 auto; }
+	DIV.csc-textpic-center DIV.csc-textpic-imagewrap .csc-textpic-image { text-align: left; /* Remove IE-hack */ }
+	DIV.csc-textpic-center DIV.csc-textpic-text { text-align: left; /* Remove IE-hack */ }
+
+	/* Right (above or below) */
+	DIV.csc-textpic-right DIV.csc-textpic-imagewrap { float: right; }
+	DIV.csc-textpic-right DIV.csc-textpic-text { clear: right; }
+
+	/* Left (above or below) */
+	DIV.csc-textpic-left DIV.csc-textpic-imagewrap { float: left; }
+	DIV.csc-textpic-left DIV.csc-textpic-text { clear: left; }
+
+	/* Left (in text) */
+	DIV.csc-textpic-intext-left DIV.csc-textpic-imagewrap { float: left; }
+
+	/* Right (in text) */
+	DIV.csc-textpic-intext-right DIV.csc-textpic-imagewrap { float: right; }
+
+	/* Right (in text, no wrap around) */
+	DIV.csc-textpic-intext-right-nowrap DIV.csc-textpic-imagewrap { float: right; clear: both; }
+	/* Hide from IE5-mac. Only IE-win sees this. \*/
+	* html DIV.csc-textpic-intext-right-nowrap .csc-textpic-text { height: 1%; }
+	/* End hide from IE5/mac */
+
+	/* Left (in text, no wrap around) */
+	DIV.csc-textpic-intext-left-nowrap DIV.csc-textpic-imagewrap { float: left; clear: both; }
+	/* Hide from IE5-mac. Only IE-win sees this. \*/
+	* html DIV.csc-textpic-intext-left-nowrap .csc-textpic-text,
+	* html .csc-textpic-intext-left ol,
+	* html .csc-textpic-intext-left ul { height: 1%; }
+	/* End hide from IE5/mac */
+
+	DIV.csc-textpic DIV.csc-textpic-imagerow-last { margin-bottom: 0; }
+
+	/* Browser fixes: */
+
+	/* Fix for unordered and ordered list with image "In text, left" */
+	.csc-textpic-intext-left ol, .csc-textpic-intext-left ul {padding-left: 40px; overflow: auto; }
+/* default styles for extension "tx_a21glossary" */
+		acronym, dfn, abbr, span.abbr { border-bottom: 1px dotted black; cursor: help; }
+		dl.glossary dt { font-weight: bold; margin: 0 0 3px 0; font-style: normal; }
+		dl.glossary dd { margin: 0 0 15px 20px; }
+		dl.glossary .description { margin: 0; padding: 0; }
+		dl.glossary .type { font-style: italic; padding: 0 3px 0 0; }
+/* default styles for extension "tx_rnmjseventprocal_calendar" */
+.rn-mjsevent-OM {color:#949E52;} /* In month */
+.rn-mjsevent-IM {color:black;} /* out month */
+.rn-mjsevent-eventdate {font-size:11px; font-weight: bold;}
+.rn-mjsevent-eventtitle a {font-size:10px; font-weight: normal; color: black; text-decoration:none;}
+.rn-mjsevent-month td, .rn-mjsevent-month a {background:#00632E; text-align:center; font-weight:bold;font-size:10px; color:white; text-decoration:none}
+.rn-mjsevent-week td, .rn-mjsevent-week a  {background:#00632E; text-align:center; font-weight:bold;font-size:10px; color:white; text-decoration:none; padding:1px 2px}
+.rn-mjsevent-date td {text-align:center;font-size:10px;}
+.rn-mjsevent-date a {color:black; text-decoration:none;}
+.rn-mjsevent-day-6, .rn-mjsevent-day-7 {background:#A7C520;}
+.rn-mjsevent-event {border: solid 1px red; }
+.rn-mjsevent-today {background:#00632E; color: white; }
+/* default styles for extension "tx_srfreecap_pi2" */
+		img.tx-srfreecap-pi2-image { margin-left: 1em; margin-right: 1em; vertical-align: middle; }
+		.tx-srfreecap-pi2-accessible-image { vertical-align: middle; }
+		.tx-srfreecap-pi2-accessible-link { width: 10em; float: right; vertical-align: middle; margin-right: 7em;}
+		.tx-srfreecap-pi2-cant-read { font-size: .9em; color:#35006d; }
+		.tx-srfreecap-pi2-cant-read a:link { background-color:transparent; font-weight:bold; text-decoration:none; }

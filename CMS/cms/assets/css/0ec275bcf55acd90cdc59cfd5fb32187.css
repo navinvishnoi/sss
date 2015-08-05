@@ -1,0 +1,93 @@
+/*------------------------------------------------------------------------------------------------------------------- */
+/**/
+/*    Saarbruecken Default Print Styles */
+/**/
+/*------------------------------------------------------------------------------------------------------------------- */
+
+* {
+    font-family: arial, sans-serif;
+}
+.print {
+    width: 100%;
+}
+.component-languages {
+    display: none;
+}
+.component-breadcrumbs {
+    display: none;
+}
+.l-logos .secondary {
+    display: none;
+}
+.navbar {
+    display: none;
+}
+.l-footer-social,
+.l-footer-nav {
+    display: none;
+}
+.modal {
+    display: none;
+}
+.map-holder {
+    display: none;
+}
+.component-gallery {
+    display: none;
+}
+.sidebar-nav {
+    display: none;
+}
+
+/*------------------------------------------------------------------------------------------------------------------- */
+/**/
+/*    Saarbruecken Geniessen Print Styles */
+/**/
+/*------------------------------------------------------------------------------------------------------------------- */
+
+.gastro-item-head a.pull-right {
+    display: none;
+}
+.component-gastro-item-list-item .col-4 {
+    display: none;
+}
+.icon.filled,
+.icon.empty {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #000;
+    background-color: #000;
+}
+.icon.empty {
+    border: 0 none;
+}
+.dl-horizontal dd {
+    margin-left: 0;
+}
+dl dd,
+dl dt {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+/*------------------------------------------------------------------------------------------------------------------- */
+/**/
+/*    Saarbruecken Einkaufen Print Styles */
+/**/
+/*------------------------------------------------------------------------------------------------------------------- */
+
+.promotion-item .col-7 {
+    display: none;
+}
+.promotion-item .overlay a {
+    display: none;
+}
+.promotion-item .col-5 hr {
+    display: none;
+}
+.promotion-item .col-5 {
+    border-top: 1px solid;
+    padding-top: 10px;
+}

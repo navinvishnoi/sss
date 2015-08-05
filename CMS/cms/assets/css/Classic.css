@@ -1,0 +1,223 @@
+.wt-widget.wt-widget-classic {
+    position: relative;
+    width: 280px;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 10px;
+
+    /* http://www.colorzilla.com/gradient-editor/ */
+    background: #f9f9f9; /* Old browsers */
+    background: -moz-linear-gradient(top, #ffffff 0%, #f9f9f9 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #f9f9f9)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #ffffff 0%, #f9f9f9 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #ffffff 0%, #f9f9f9 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #ffffff 0%, #f9f9f9 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #ffffff 0%, #f9f9f9 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f9f9f9', GradientType=0); /* IE6-9 */
+}
+
+.wt-widget-classic {
+    position: relative;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    color: #333333;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+.wt-widget-classic .wt-widget-logo {
+    position: absolute;
+    width: 110px;
+    height: 26px;
+    top: 10px;
+    left: 10px;
+    background-image: url("./images/logo.png");
+}
+
+.wt-widget-classic .wt-widget-location-name {
+    position: relative;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 90px;
+    width: 190px;
+}
+
+.wt-widget-classic .wt-widget-current-weather {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.wt-widget-classic .wt-widget-current-weather .wt-widget-weather-icon {
+    position: relative;
+    float: left;
+}
+
+.wt-widget-classic .wt-widget-current-weather .wt-widget-weather-temperature {
+    position: relative;
+    float: left;
+    top: 25px;
+    font-size: 40px;
+    color: #666666;
+}
+
+.wt-widget-classic .wt-widget-current-weather .wt-widget-weather-condition {
+    position: absolute;
+    font-size: 12px;
+    color: #999999;
+    bottom: -12px;
+    right: 0;
+}
+
+.wt-widget-classic .wt-widget-forecasts-detail {
+    position: relative;
+    margin-top: 20px;
+    clear: both;
+}
+
+.wt-widget-classic .wt-widget-forecasts-detail .wt-widget-forecast-detail-morning {
+    position: relative;
+    float: left;
+    width: 78px;
+    padding-right: 10px;
+    border-right: 1px solid #e2e2e2;
+}
+
+.wt-widget-classic .wt-widget-forecasts-detail .wt-widget-forecast-detail-noon {
+    position: relative;
+    float: left;
+    width: 78px;
+    padding-right: 10px;
+    margin-left: 10px;
+    border-right: 1px solid #e2e2e2;
+}
+
+.wt-widget-classic .wt-widget-forecasts-detail .wt-widget-forecast-detail-evening {
+    position: relative;
+    float: left;
+    width: 78px;
+    margin-left: 10px;
+}
+
+.wt-widget-classic .wt-widget-forecasts-detail .wt-widget-weather-title {
+    text-align: center;
+    font-size: 11px;
+    color: #999999;
+}
+
+.wt-widget-classic .wt-widget-forecasts-detail .wt-widget-weather-icon {
+    float: left;
+}
+
+.wt-widget-classic .wt-widget-forecasts-detail .wt-widget-weather-temperature {
+    float: left;
+    font-size: 16px;
+    color: #666666;
+    padding: 10px 0 0 5px;
+}
+
+.wt-widget-classic .wt-widget-forecasts-detail .wt-widget-weather-condition {
+    clear: both;
+    text-align: center;
+    font-size: 11px;
+    color: #999999;
+}
+
+.wt-widget-classic .wt-widget-clear {
+    clear: both;
+}
+
+.wt-widget-classic .wt-widget-weather-report {
+    position: relative;
+    margin-top: 20px;
+    clear: both;
+    line-height: 16px;
+}
+
+.wt-widget-classic .wt-widget-weather-report .wt-widget-weather-report-headline {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.wt-widget-classic .wt-widget-searchbar {
+    position: relative;
+    margin-top: 10px;
+    width: 280px;
+    height: 30px;
+}
+
+.wt-widget-classic .wt-widget-searchbar form {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.wt-widget-classic .wt-widget-searchbar .wt-widget-searchbar-field {
+    position: absolute;
+    margin: 0;
+    width: 260px;
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    height: 30px;
+    padding: 0 5px 0 5px;
+    line-height: 30px;
+}
+
+.wt-widget-classic .wt-widget-searchbar .wt-widget-searchbar-field:focus {
+    border-color: rgba(128, 177, 62, 0.8);
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(128, 177, 62, 0.6);
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(128, 177, 62, 0.6);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(128, 177, 62, 0.6);
+}
+
+.wt-widget-classic .wt-widget-searchbar .wt-widget-searchbar-button {
+    position: absolute;
+    right: 0;
+    width: 35px;
+    height: 30px;
+    background: url("./images/magnifying-glass-blue.png") no-repeat scroll center center #015093;
+    border: none;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: -1px 0 2px #6b798c;
+    -webkit-box-shadow: -1px 0 2px #6b798c;
+    -moz-box-shadow: -1px 0 2px #6b798c;
+    cursor: pointer;
+}
+
+.wt-widget-backlink {
+    position: relative;
+    font-family: "Open Sans", sans-serif;
+    font-size: 12px;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    color: #005093;
+    text-decoration: none;
+}
+
+.wt-widget-count {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 0px;
+    height: 0px;
+}
+
+.wt-widget-count img {
+    width: 0px;
+    height: 0px;
+    border: 0;
+}

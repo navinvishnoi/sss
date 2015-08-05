@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteCond $1 !^(index\.php|freetellafriend_12450.txt|sdUdSRS.html|google40e1fdfe8d37a754.html|robot.txt|sitemap\.php|assets|admin|beta|facebook|images|css|js|captcha|user_guide|robots\.txt)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule .* index.php/$0 [PT,L] 
+RewriteRule sitemap\.xml sitemap.php
